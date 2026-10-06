@@ -7,7 +7,8 @@ Feedbackrunden: 0 von [vereinbart].
 - Marke und Positionierung: offen, kommt aus dem Interview.
 - Startseite: nicht begonnen.
 - Unterseiten: nicht begonnen.
-- Technik und SEO: nicht begonnen. Es gibt noch keine Website-Dateien.
+- Technik und SEO: neutrales Gerüst steht (index, impressum, datenschutz, styles.css, main.js, robots.txt, sitemap.xml, llms.txt). Kein Design, keine Inhalte, Platzhalter-Texte. Bei 390 und 1280 px geprüft, kein seitliches Überlaufen.
+- Vorschau: `https://koojaa92.github.io/bettina-website/`, sobald GitHub Pages aktiv ist (nicht geprüft). Domain wird erst später verbunden.
 - Repo ist aus der Vorlage angelegt, `CLAUDE.md` Abschnitt „Projekt“ ist teilweise gefüllt (Name, Repo, Phase).
 
 ## Offene Punkte
@@ -23,11 +24,14 @@ Feedbackrunden: 0 von [vereinbart].
 - [ ] Angebot, Paket und Zahl der Feedbackrunden schriftlich festhalten (steht nicht im Repo)
 - [ ] Nach dem Interview: `_projekt/GRUNDLAGE.md` füllen, Freigabe holen, Marken-Regeln in `CLAUDE.md` eintragen
 ### Später
+- [ ] Vor Live-Gang: `noindex` in allen HTML-Dateien und `Disallow: /` in robots.txt entfernen, sitemap.xml und llms.txt mit echter Domain füllen
 - [ ] Phase 4: erster Entwurf und Live-Gang (erst nach freigegebener Grundlage)
 - [ ] Phase 6: SEO, Impressum, Datenschutz
 - [ ] Phase 7: Übergabe und Befähigung
 
 ## Entschieden (nicht wieder aufmachen)
 - Dies ist ein eigenständiges Projekt, unabhängig von essential-guidance.space.
-- Vor Phase 4 wird kein Code und kein Design angelegt.
+- Gerüst wird in diesem Repo gebaut (nicht im Vorlagen-Repo): nur neutral, ohne Design und Inhalte. Echtes Design und Texte erst nach Phase 3.
+- Vorschau läuft über GitHub Pages unter der github.io-Adresse, keine Domain nötig. Kein Bauen im Artefakt.
+- Arbeitsstil: wenig Technik zeigen, bei echten Problemen fragen, Alternativen nennen. Technik-Fragen (Domain, Umzug, GitHub) kurz und knapp erklären, bei Screenshots Schritt für Schritt führen.
 - Das Repo ist öffentlich: Nur das sachliche Destillat kommt hinein, nichts Persönliches (keine Transkripte, privaten Notizen, Preise der Zusammenarbeit).

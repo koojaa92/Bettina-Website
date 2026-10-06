@@ -1,0 +1,36 @@
+/* Gerüst: neutral, ohne Design. Farben und Schriften sind Platzhalter bis Phase 3. */
+:root {
+  --grund: #222222;   /* Grundfarbe (Text) */
+  --papier: #ffffff;  /* Papier (Hintergrund) */
+  --grau: #f2f2f2;    /* Grau für FAQ-Abschnitte */
+  --akzent: #555555;  /* Akzent */
+  --font-kopf: system-ui, sans-serif;
+  --font-text: system-ui, sans-serif;
+  --kopf: 56px;       /* wird in main.js gemessen */
+  --breite: 44rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-padding-top: var(--kopf); }
+body { margin: 0; color: var(--grund); background: var(--papier); font: 1rem/1.6 var(--font-text); }
+h1, h2, h3 { font-family: var(--font-kopf); line-height: 1.2; text-wrap: balance; }
+p, li { text-wrap: pretty; }
+a { color: var(--akzent); }
+img { max-width: 100%; height: auto; }
+
+.kopf { position: sticky; top: 0; z-index: 10; background: var(--papier); border-bottom: 1px solid var(--grau); }
+.kopf-innen, .inhalt, .fuss-innen { max-width: var(--breite); margin: 0 auto; padding: 1rem; }
+.kopf-innen { display: flex; gap: 1rem; align-items: center; justify-content: space-between; }
+.kopf nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+section { padding: 2rem 1rem; }
+section.tint { background: var(--grau); }
+.hero { min-height: calc(100lvh - var(--kopf)); display: flex; align-items: center; padding-bottom: 3rem; }
+
+.fuss { border-top: 1px solid var(--grau); font-size: .9rem; }
+.fuss-innen { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+/* Globale Abstandsregel: Abschnitte eng halten. Immer ganz am Ende. */
+section { padding-block: 1.5rem; }
+h1, h2, h3 { margin-block: 0 .75rem; }
+p { margin-block: 0 .75rem; }

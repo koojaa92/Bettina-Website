@@ -1,0 +1,6 @@
+# Entwurf: nicht indexieren. Vor dem Live-Gang ersetzen durch:
+# User-agent: *
+# Allow: /
+# Sitemap: https://[domain]/sitemap.xml
+User-agent: *
+Disallow: /

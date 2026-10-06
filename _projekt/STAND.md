@@ -8,7 +8,7 @@ Feedbackrunden: 0 von [vereinbart].
 - Startseite: nicht begonnen.
 - Unterseiten: nicht begonnen.
 - Technik und SEO: neutrales Gerüst steht (index, impressum, datenschutz, styles.css, main.js, robots.txt, sitemap.xml, llms.txt). Kein Design, keine Inhalte, Platzhalter-Texte. Bei 390 und 1280 px geprüft, kein seitliches Überlaufen.
-- Vorschau: `https://koojaa92.github.io/bettina-website/`, sobald GitHub Pages aktiv ist (nicht geprüft). Domain wird erst später verbunden.
+- Vorschau: `https://koojaa92.github.io/Bettina-Website/` (Groß- und Kleinschreibung beachten, GitHub Pages ist aktiv, geprüft am 2026-10-06; `_projekt/` und `_werkstatt/` werden nicht ausgeliefert). Domain wird erst später verbunden.
 - Repo ist aus der Vorlage angelegt, `CLAUDE.md` Abschnitt „Projekt“ ist teilweise gefüllt (Name, Repo, Phase).
 
 ## Offene Punkte

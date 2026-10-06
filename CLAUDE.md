@@ -3,11 +3,11 @@
 Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. Bei einem neuen Projekt zusätzlich `_werkstatt/HANDBUCH.md`.
 
 ## Projekt
-- Website für: [Name], [Angebot] in [Stadt]
-- Repo: [owner/repo]. Live ist der Branch `main` (GitHub Pages).
+- Website für: Bettina, [Angebot] in [Stadt]
+- Repo: koojaa92/Bettina-Website. Live ist der Branch `main` (GitHub Pages).
 - Domain: [domain], DNS bei [Anbieter]. E-Mail an der Domain: [ja/nein]. MX- und TXT-Einträge nie ändern.
 - Website-Typ und Ziel: [z. B. Angebots-Website mit Terminen / One-Pager / Portfolio]. Funktionen: [...]
-- Aktuelle Phase: [0–7, siehe Handbuch Abschnitt 5]
+- Aktuelle Phase: 1 (Vorbereitung). Das Interview steht aus. Gebaut wird erst nach Interview und freigegebener Grundlage (Phase 3 → Phase 4).
 
 ## Arbeitsweise
 - Sprache: Deutsch, Du-Form, sofern unten nicht anders festgelegt.

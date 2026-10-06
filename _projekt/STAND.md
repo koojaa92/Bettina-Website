@@ -11,6 +11,8 @@ Feedbackrunden: 0 von [vereinbart].
 - Vorschau: `https://koojaa92.github.io/Bettina-Website/` (Groß- und Kleinschreibung beachten, GitHub Pages ist aktiv, geprüft am 2026-10-06; `_projekt/` und `_werkstatt/` werden nicht ausgeliefert). Domain wird erst später verbunden.
 - Repo ist aus der Vorlage angelegt, `CLAUDE.md` Abschnitt „Projekt“ ist teilweise gefüllt (Name, Repo, Phase).
 
+- Werkstatt-Standards aus `website-werkstatt` (main) übernommen am 2026-10-06: Skill `frontend-design`, `_werkstatt/HANDBUCH.md` (aktualisiert), `_werkstatt/KI-WERKZEUGKASTEN.md`, `_projekt/DESIGN.md` (Vorlage, noch leer) und der Abschnitt „Design“ in `CLAUDE.md`. Bettina-Einträge unverändert.
+
 ## Offene Punkte
 ### Von der Kundin
 - [ ] Material liefern (Checkliste aus der Kunden-Handreichung: Absicht, Referenzseiten, Angebote, Fotos, vorhandene Texte, Pflichtangaben, Kanäle)

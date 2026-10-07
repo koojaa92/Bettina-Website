@@ -1,7 +1,7 @@
-# Bettina Wyciok: Designsystem (Entwurf 1, nicht freigegeben)
+# Bettina Wyciok: Designsystem (Entwurf 2, nicht freigegeben)
 
 Verbindlich für alle Seiten. Abgeleitet aus den Referenzseiten (siehe GRUNDLAGE.md), keine Kopie.
-Freigegeben von der Kundin am: [noch nicht]. Hero: Variante mit drei versetzten Zeilen (Treppe) und Porträt rechts, am Handy Porträt unter dem Text.
+Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle Breite, läuft nach links weich in die Seitenfarbe aus (am Handy oben, läuft nach unten aus). Drei Zeilen des Slogans, die dritte in Rose. Methoden-Leiste darunter. Unterseiten haben denselben Kopf mit Bild oder beschriftetem Bildplatz. Von Jakob gewünscht (Referenz aus einem früheren Entwurf).
 
 ## Gefühl
 - Drei Wörter (Entwurf, aus Fotos und Texten abgeleitet, mit ihr klären): ruhig, klar, warm.
@@ -19,7 +19,7 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: Variante mit drei versetzten 
 - Herkunft: Blau der Bluse, Salbei der Pflanze, Rosé des Kissens aus ihren Fotos. Bewusst kein Creme und Terrakotta.
 
 ## Abstände und Rhythmus
-- Abstand zwischen Abschnitten: eng (2 rem oben und unten), globale Regel am Ende der styles.css.
+- Abstand zwischen Abschnitten: bewusst ruhiger als in der Vorlage (4,5 rem am Desktop, 3 rem am Handy), weil Jakob "klarer, ruhiger, übersichtlicher" wollte. Weicht von der Regel "eng" ab, gilt für Bettina.
 - Abstand Überschrift zu Text: 0,85 rem.
 - Maximale Textbreite: 40 rem, Seitenbreite 70 rem.
 
@@ -32,8 +32,8 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: Variante mit drei versetzten 
 - Fast keine, siehe oben.
 
 ## Dos und Don'ts
-- Do: Angebote als ruhige Zeilen mit Linien, Text links, Bild zum Text hin.
-- Don't: Karten-Raster, Großbuchstaben-Labels, Nummern, Verläufe, einzelne Wörter in Überschriften hervorheben.
+- Do: Einzel- und Paarbegleitung als zwei klar unterscheidbare Einstiege (Denim-Ton und Rose-Ton), ein Knopf pro Bildschirm, Schritte nummeriert nur dort, wo es eine Reihenfolge ist.
+- Don't: Karten-Raster (außer den zwei Einstiegen), Großbuchstaben-Labels, Nummern, Verläufe, einzelne Wörter in Überschriften hervorheben.
 
 ## Bewusst nicht übernommen (aus den Referenzen)
 - Keine Referenzseiten ausgewertet: Entwurf stammt aus der alten Seite (Texte, Fotos) und den Werkstatt-Standards. Das Webinar-Bild der alten Seite (KI-Optik) wurde nicht übernommen.

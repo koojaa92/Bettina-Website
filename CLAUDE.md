@@ -7,7 +7,7 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Repo: koojaa92/Bettina-Website. Live ist der Branch `main` (GitHub Pages).
 - Domain: voraussichtlich die der bestehenden Seite, Anbieter und DNS noch zu klären. E-Mail an der Domain: [ja/nein]. MX- und TXT-Einträge nie ändern.
 - Website-Typ und Ziel: [z. B. Angebots-Website mit Terminen / One-Pager / Portfolio]. Funktionen: [...]
-- Aktuelle Phase: Entwurf 1 steht (aus den Texten und Fotos der alten Seite, nicht freigegeben, `noindex`). Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
+- Aktuelle Phase: Entwurf 2 steht (aus den Texten und Fotos der alten Seite, nicht freigegeben, `noindex`). Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
 
 ## Arbeitsweise
 - Sprache: Deutsch, Du-Form, sofern unten nicht anders festgelegt.
@@ -24,7 +24,7 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Bei Änderungen an `styles.css` oder `main.js` die Versionsnummer (`?v=...`) in allen HTML-Dateien hochzählen.
 - Jede Änderung bei 390 px und 1280 px per Screenshot prüfen.
 - Entwickeln auf eigenem Branch, live mit `git push origin <branch>:main`.
-- Abstände zwischen Abschnitten eng halten. Globale Regel am Ende von `styles.css`.
+- Abstände zwischen Abschnitten: für Bettina bewusst ruhig und großzügig (Abweichung von der Vorlage, siehe `_projekt/DESIGN.md`). Globale Regel am Ende von `styles.css`.
 - Schriften selbst hosten oder über Bunny Fonts, nie direkt von Google Fonts.
 - Formulare nur, wenn sie wirklich senden. Sonst Mail-Link.
 - FAQ sichtbar und als FAQPage-JSON-LD im `<head>`, beides angleichen. FAQ-Abschnitte mit grauem Hintergrund.
@@ -50,11 +50,11 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - [Bei Begleitungsangeboten: Hinweis „keine Heilkunde, ersetzt keine Therapie, Teilnahme in Eigenverantwortung“.]
 
 ## Marke (verbindlich, nach Phase 3 füllen)
-- Dachmarke: Bettina Wyciok. Angebote: Einzelbegleitung, Paarbegleitung, Workshops & Seminare (Entwurf aus der alten Seite).
+- Dachmarke: Bettina Wyciok. Angebote: Einzelbegleitung, Paarbegleitung, Gruppen & Workshops (Entwurf). Schwerpunkt: Einzel- und Paarbegleitung mit IFS. Personenmarke, ruhig und persönlich, nicht verkäuferisch (kein "kostenloses Erstgespräch" als Aufhänger).
 - Schreibweisen: [...]
 - Ort immer gleich: [Ort, Adresse].
 - Alle Mail-Links an: kontakt@bettinawyciok.de (Adresse der alten Seite, Entwurf). Betreff je nach Button.
 - Wörter, die immer vorkommen: [...]
 - Wörter, die nie vorkommen: [...]
-- Die eine Handlung für Besucher: [...]
+- Die eine Handlung für Besucher: "Gespräch vereinbaren" (Online-Terminbuchung gewünscht, Tool noch offen; bis dahin Mail-Link).
 - Schriften: [Überschrift], [Fließtext]. Farben: [...]

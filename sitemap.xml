@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Wird nach Phase 3 mit allen Seiten und der echten Domain gefüllt. -->
+  <!-- Entwurf: github.io-Adresse. Mit echter Domain ersetzen. -->
   <url><loc>https://koojaa92.github.io/Bettina-Website/</loc></url>
+  <url><loc>https://koojaa92.github.io/Bettina-Website/einzelbegleitung/</loc></url>
+  <url><loc>https://koojaa92.github.io/Bettina-Website/paarbegleitung/</loc></url>
+  <url><loc>https://koojaa92.github.io/Bettina-Website/workshops-seminare/</loc></url>
+  <url><loc>https://koojaa92.github.io/Bettina-Website/about/</loc></url>
+  <url><loc>https://koojaa92.github.io/Bettina-Website/contact/</loc></url>
+  <url><loc>https://koojaa92.github.io/Bettina-Website/impressum/</loc></url>
+  <url><loc>https://koojaa92.github.io/Bettina-Website/datenschutzerklarung/</loc></url>
 </urlset>

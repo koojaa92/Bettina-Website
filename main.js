@@ -1,10 +1,18 @@
-// Kopfzeilenhöhe messen und als --kopf setzen (für Hero und Anker).
+// Kopfzeilenhöhe messen (--kopf) und Menü am Handy auf- und zuklappen.
 (function () {
   var kopf = document.querySelector('.kopf');
-  if (!kopf) return;
+  var knopf = document.querySelector('.menue-knopf');
+  var menue = document.getElementById('menue');
   function messen() {
-    document.documentElement.style.setProperty('--kopf', kopf.offsetHeight + 'px');
+    if (kopf) document.documentElement.style.setProperty('--kopf', kopf.offsetHeight + 'px');
   }
   messen();
   window.addEventListener('resize', messen);
+  if (knopf && menue) {
+    knopf.addEventListener('click', function () {
+      var offen = menue.classList.toggle('offen');
+      knopf.setAttribute('aria-expanded', offen ? 'true' : 'false');
+      messen();
+    });
+  }
 })();

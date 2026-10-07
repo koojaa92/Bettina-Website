@@ -3,11 +3,11 @@
 Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. Bei einem neuen Projekt zusätzlich `_werkstatt/HANDBUCH.md`.
 
 ## Projekt
-- Website für: Bettina, [Angebot] in [Stadt]
+- Website für: Bettina Wyciok, Einzel- und Paarbegleitung sowie Workshops und Seminare in Freiburg, bei Furtwangen im Schwarzwald und online
 - Repo: koojaa92/Bettina-Website. Live ist der Branch `main` (GitHub Pages).
-- Domain: [domain], DNS bei [Anbieter]. E-Mail an der Domain: [ja/nein]. MX- und TXT-Einträge nie ändern.
+- Domain: voraussichtlich die der bestehenden Seite, Anbieter und DNS noch zu klären. E-Mail an der Domain: [ja/nein]. MX- und TXT-Einträge nie ändern.
 - Website-Typ und Ziel: [z. B. Angebots-Website mit Terminen / One-Pager / Portfolio]. Funktionen: [...]
-- Aktuelle Phase: 1 (Vorbereitung). Das Interview steht aus. Gebaut wird erst nach Interview und freigegebener Grundlage (Phase 3 → Phase 4).
+- Aktuelle Phase: Entwurf 1 steht (aus den Texten und Fotos der alten Seite, nicht freigegeben, `noindex`). Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
 
 ## Arbeitsweise
 - Sprache: Deutsch, Du-Form, sofern unten nicht anders festgelegt.
@@ -50,10 +50,10 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - [Bei Begleitungsangeboten: Hinweis „keine Heilkunde, ersetzt keine Therapie, Teilnahme in Eigenverantwortung“.]
 
 ## Marke (verbindlich, nach Phase 3 füllen)
-- Dachmarke: [Name]. Angebote: [A], [B], [C].
+- Dachmarke: Bettina Wyciok. Angebote: Einzelbegleitung, Paarbegleitung, Workshops & Seminare (Entwurf aus der alten Seite).
 - Schreibweisen: [...]
 - Ort immer gleich: [Ort, Adresse].
-- Alle Mail-Links an: [mail]. Betreff je nach Button.
+- Alle Mail-Links an: kontakt@bettinawyciok.de (Adresse der alten Seite, Entwurf). Betreff je nach Button.
 - Wörter, die immer vorkommen: [...]
 - Wörter, die nie vorkommen: [...]
 - Die eine Handlung für Besucher: [...]

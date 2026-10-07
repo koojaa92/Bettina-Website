@@ -5,7 +5,7 @@ Feedbackrunden: 0 von [vereinbart].
 
 ## Was steht
 - Marke und Positionierung: offen, kommt aus dem Interview.
-- Startseite: Entwurf 2: Hero mit großem Bild und Slogan, Methoden-Leiste, zwei Einstiege (Einzel / Paar), "Verstehen und erleben" (vier Zugänge), Person, Gruppen und mehr, so beginnt die Zusammenarbeit. Wording überarbeitet, nah an ihren Aussagen, nicht von ihr freigegeben. Alt-Text steht in der Git-Geschichte (Commit 7715ecb).
+- Startseite: Entwurf 2, bewusst schlank (Jakob: solange nicht definiert, weniger): Hero mit großem Bild und Slogan, Methoden-Leiste, zwei Einstiege (Einzel / Paar), Person, Gruppen und mehr, Footer mit Gesprächs-Aufruf und Bildplatz. Entfernt am 2026-10-07: "Verstehen und erleben" (vier Zugänge) und "So beginnt die Zusammenarbeit" (Wiederherstellung: Git-Stand 37724c7). Wording überarbeitet, nah an ihren Aussagen, nicht von ihr freigegeben. Alt-Text steht in der Git-Geschichte (Commit 7715ecb).
 - Unterseiten: Einzelbegleitung, Paarbegleitung, Gruppen & Workshops, Über mich, Gespräch vereinbaren (Pfade wie auf der alten Seite: /about/, /contact/, /datenschutzerklarung/). Impressum und Datenschutz nur Platzhalter.
 - Technik und SEO: 8 Seiten als Ordner mit index.html, eine styles.css, eine main.js (Menü am Handy), Schriften und Bilder im Repo (bilder/ als WebP, schriften/). `noindex` und `Disallow: /` sind gesetzt, sitemap.xml mit github.io-Adresse, llms.txt noch Platzhalter, keine Meta-Beschreibungen (Phase 6). Bei 390 und 1280 px geprüft, kein seitliches Überlaufen. Nicht geprüft: echtes iPhone.
 - Vorschau: Adresse oben (Groß- und Kleinschreibung beachten, GitHub Pages aktiv; `_projekt/` und `_werkstatt/` werden nicht ausgeliefert). Domain wird erst später verbunden.
@@ -30,6 +30,8 @@ Feedbackrunden: 0 von [vereinbart].
 - [ ] Impressum und Datenschutz: Angaben von ihr (Kleinunternehmerin nach § 19 UStG laut Angebotstexten, keine USt-IdNr. erfinden)
 
 - [ ] Unterseiten: Bildflächen sind bewusst groß gelassen, mit den echten Fotos und mehr Details am Freitag Abschnitte und Bildverhältnisse nachziehen
+
+- [ ] Footer-Bild: Bildplatz mit echtem Foto füllen (halbtransparent hinterlegt)
 
 ### Von der Kundin
 - [ ] Material liefern (Checkliste aus der Kunden-Handreichung: Absicht, Referenzseiten, Angebote, Fotos, vorhandene Texte, Pflichtangaben, Kanäle)

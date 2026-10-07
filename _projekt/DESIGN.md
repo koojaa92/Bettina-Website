@@ -19,7 +19,7 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 - Herkunft: Blau der Bluse und Rosé des Kissens aus ihren Fotos. Blau und leichtes Rot funktionieren zusammen (Jakob). Bewusst kein Creme, Terrakotta und Grün.
 
 ## Abstände und Rhythmus
-- Abstand zwischen Abschnitten: bewusst ruhiger als in der Vorlage (4,5 rem am Desktop, 3 rem am Handy), weil Jakob "klarer, ruhiger, übersichtlicher" wollte. Weicht von der Regel "eng" ab, gilt für Bettina.
+- Abstand zwischen Abschnitten: bewusst ruhiger als in der Vorlage (6,5 rem am Desktop, 3,5 rem am Handy), weil Jakob "klarer, ruhiger, übersichtlicher" wollte. Weicht von der Regel "eng" ab, gilt für Bettina.
 - Abstand Überschrift zu Text: 0,85 rem.
 - Maximale Textbreite: 40 rem, Seitenbreite 70 rem.
 
@@ -32,6 +32,7 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 - Fast keine, siehe oben.
 
 ## Dos und Don'ts
+- Do: Gesprächs-Aufruf und Kontakt stehen im Footer, mit halbtransparentem Bild (zunächst Bildplatz) im Hintergrund. Keine separaten Aufruf-Bänder.
 - Do: Unterseiten bekommen große Kopfbilder und große Bildflächen, weil dort größere Fotos und mehr Details hinkommen.
 - Do: Einzel- und Paarbegleitung als zwei klar unterscheidbare Einstiege (Denim-Ton und Rose-Ton), ein Knopf pro Bildschirm, Schritte nummeriert nur dort, wo es eine Reihenfolge ist.
 - Don't: Karten-Raster (außer den zwei Einstiegen), Großbuchstaben-Labels, Nummern, Verläufe, einzelne Wörter in Überschriften hervorheben.

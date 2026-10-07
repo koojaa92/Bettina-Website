@@ -6,15 +6,15 @@
 @font-face { font-family: "Nunito Sans"; font-weight: 700; font-style: normal; font-display: swap; src: url("schriften/nunito-sans-latin-700-normal.woff2") format("woff2"); }
 
 :root {
-  --papier: #f6f7f4;
+  --papier: #f7f7f5;
   --tinte: #1e2b35;
   --denim: #2f5d7c;
   --denim-dunkel: #244a63;
   --denim-hell: #dce6ee;
-  --salbei: #e3eae4;
+  --grau: #ececed;
   --rose: #b76e79;
   --rose-hell: #f0e3e3;
-  --linie: #cdd6cf;
+  --linie: #d5d7d9;
   --leise: #4b5b66;
   --font-kopf: "Literata", Georgia, "Times New Roman", serif;
   --font-text: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -44,7 +44,7 @@ p { margin: 0 0 1rem; }
 .zum-inhalt:focus { left: 0; }
 
 /* Kopfzeile */
-.kopf { position: sticky; top: 0; z-index: 20; background: rgba(246, 247, 244, .94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--linie); }
+.kopf { position: sticky; top: 0; z-index: 20; background: rgba(247, 247, 245, .94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--linie); }
 .kopf-innen { max-width: var(--breit); width: calc(100% - 2 * var(--rand)); margin: 0 auto; padding: .8rem 0; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .name { font-family: var(--font-kopf); font-size: 1.3rem; color: var(--tinte); text-decoration: none; white-space: nowrap; }
 .name:hover { color: var(--denim); }
@@ -65,7 +65,7 @@ p { margin: 0 0 1rem; }
 
 /* Abschnitte */
 .abschnitt { padding: 4.5rem var(--rand); }
-.abschnitt.tint { background: var(--salbei); }
+.abschnitt.tint { background: var(--grau); }
 .innen { max-width: var(--breit); margin: 0 auto; }
 .text { max-width: var(--text); }
 .text h2 + p, .abschnitt h2 + p { margin-top: 1rem; }
@@ -75,7 +75,7 @@ p { margin: 0 0 1rem; }
 .einleitung { max-width: 40rem; margin-top: 1rem; }
 
 /* Bildplätze */
-.platzhalter { margin: 0; display: grid; place-items: center; text-align: center; padding: 1rem; border: 1.5px dashed #9fb0a5; border-radius: var(--rundung); background: #e8eee9; color: var(--leise); font-size: .95rem; width: 100%; }
+.platzhalter { margin: 0; display: grid; place-items: center; text-align: center; padding: 1rem; border: 1.5px dashed #aeb1b5; border-radius: var(--rundung); background: #e4e5e7; color: var(--leise); font-size: .95rem; width: 100%; }
 .r43 { aspect-ratio: 4 / 3; } .r32 { aspect-ratio: 3 / 2; } .r169 { aspect-ratio: 16 / 9; } .r45 { aspect-ratio: 4 / 5; }
 .foto { margin: 0; }
 .foto img { width: 100%; border-radius: var(--rundung); }
@@ -87,9 +87,8 @@ p { margin: 0 0 1rem; }
 .hero { min-height: calc(100lvh - var(--kopf)); display: flex; align-items: center; padding: 3rem var(--rand); }
 .kopfbild { min-height: 30rem; display: flex; align-items: center; padding: 3.5rem var(--rand); }
 .hg { position: absolute; top: 0; right: 0; bottom: 0; width: 66%; height: 100%; object-fit: cover; object-position: 55% 25%; }
-.hg-platzhalter { position: absolute; top: 0; right: 0; bottom: 0; width: 62%; display: grid; place-items: center; text-align: center; padding: 1rem 1rem 1rem 30%; background: var(--denim-hell); color: var(--leise); font-size: .95rem; }
-.paar .hg-platzhalter { background: var(--rose-hell); }
-.hero::before, .kopfbild::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, var(--papier) 30%, rgba(246, 247, 244, .88) 42%, rgba(246, 247, 244, 0) 70%); }
+.hg-platzhalter { position: absolute; top: 0; right: 0; bottom: 0; width: 62%; display: grid; place-items: center; text-align: center; padding: 1rem 1rem 1rem 30%; background: #e4e5e7; color: var(--leise); font-size: .95rem; }
+.hero::before, .kopfbild::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, var(--papier) 30%, rgba(247, 247, 245, .88) 42%, rgba(247, 247, 245, 0) 70%); }
 .hero-inhalt { position: relative; z-index: 2; max-width: var(--breit); margin: 0 auto; width: 100%; }
 .hero-inhalt > * { max-width: 36rem; }
 .kopfbild h1 { margin-bottom: 1.25rem; }
@@ -116,7 +115,7 @@ p { margin: 0 0 1rem; }
 .wege { display: grid; grid-template-columns: 1fr 1fr; gap: 1.75rem; margin-top: 2.25rem; }
 .weg { border-radius: var(--rundung); overflow: hidden; display: flex; flex-direction: column; background: var(--denim-hell); }
 .weg.paar { background: var(--rose-hell); }
-.weg .platzhalter { border-radius: 0; border: 0; border-bottom: 1.5px dashed #9fb0a5; }
+.weg .platzhalter { border-radius: 0; border: 0; border-bottom: 1.5px dashed #aeb1b5; }
 .weg-text { padding: 1.75rem; display: flex; flex-direction: column; flex: 1; }
 .weg-text h3 { font-size: 1.7rem; margin-bottom: .6rem; }
 .weg-text p { margin-bottom: 1.25rem; }
@@ -190,8 +189,8 @@ p { margin: 0 0 1rem; }
 .band a:not(.knopf) { color: #fff; }
 
 /* Fuß */
-.fuss { background: var(--tinte); color: #e8eeea; padding: 3rem var(--rand); font-size: .98rem; }
-.fuss a { color: #e8eeea; }
+.fuss { background: var(--tinte); color: #ececed; padding: 3rem var(--rand); font-size: .98rem; }
+.fuss a { color: #ececed; }
 .fuss a:hover { color: #f0c3c9; }
 .fuss-innen { max-width: var(--breit); margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 2rem; }
 .fuss h2 { font-family: var(--font-text); font-size: 1rem; font-weight: 700; margin: 0 0 .5rem; }
@@ -209,13 +208,16 @@ p { margin: 0 0 1rem; }
   .js .hauptmenue.offen { display: flex; }
   .hauptmenue a:not(.knopf) { padding: .65rem 0; }
   .hauptmenue .knopf { margin-top: .75rem; }
-  .abschnitt { padding: 3rem var(--rand); }
+  .abschnitt, .unter .abschnitt { padding-top: 3rem; padding-bottom: 3rem; }
+  .unter .kopfbild { min-height: 30rem; }
+  .unter .zweispaltig { grid-template-columns: 1fr; gap: 2rem; }
+  .unter .zweispaltig > .platzhalter { min-height: 14rem; }
   .hero { align-items: flex-end; padding: 0 var(--rand) 2.25rem; }
   .kopfbild { align-items: flex-end; min-height: 26rem; padding: 0 var(--rand) 2rem; }
   .hg, .hg-platzhalter { width: 100%; height: 56%; bottom: auto; }
   .hg { object-position: 50% 12%; }
   .hg-platzhalter { padding: 2.5rem 1rem 1rem; place-items: start center; }
-  .hero::before, .kopfbild::before { background: linear-gradient(180deg, rgba(246, 247, 244, 0) 22%, rgba(246, 247, 244, .92) 45%, var(--papier) 54%); }
+  .hero::before, .kopfbild::before { background: linear-gradient(180deg, rgba(247, 247, 245, 0) 22%, rgba(247, 247, 245, .92) 45%, var(--papier) 54%); }
   .hero { min-height: calc(100lvh - var(--kopf)); }
   .kopfbild { padding-top: 11rem; }
   .stufen { font-size: 2.1rem; margin-bottom: 1rem; }
@@ -237,6 +239,13 @@ p { margin: 0 0 1rem; }
   .fuss-innen { grid-template-columns: 1fr; gap: 1.25rem; }
   .fuss a { overflow-wrap: anywhere; }
 }
+
+/* Unterseiten: größere Bildflächen und mehr Raum für Inhalte */
+.unter .kopfbild { min-height: 36rem; padding-top: 4.5rem; padding-bottom: 4.5rem; }
+.unter .abschnitt { padding-top: 5.5rem; padding-bottom: 5.5rem; }
+.unter .zweispaltig { grid-template-columns: .85fr 1.15fr; gap: 4.5rem; }
+.unter .zweispaltig > .platzhalter, .unter .zweispaltig > .foto { min-height: 24rem; }
+.unter .zweispaltig .platzhalter { aspect-ratio: 3 / 2; }
 
 /* Kleinteile */
 .manchmal h2 { margin-bottom: 1.5rem; }

@@ -14,9 +14,9 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 
 ## Farben
 - Grund (Tinte): #1E2B35
-- Papier: #F4F6F3, Abschnitte Salbei #DDE6DE
+- Papier: #F7F7F5, Abschnitte und Bildplätze in neutralem Grau (#ECECED und #E4E5E7). Kein Grün (Jakob: nicht sinnvoll).
 - Akzent: Denim #2F5D7C (Knöpfe, Links), Rose #B76E79 (nur kleine Akzente: Listenpunkte, aktiver Menüpunkt, Fokus)
-- Herkunft: Blau der Bluse, Salbei der Pflanze, Rosé des Kissens aus ihren Fotos. Bewusst kein Creme und Terrakotta.
+- Herkunft: Blau der Bluse und Rosé des Kissens aus ihren Fotos. Blau und leichtes Rot funktionieren zusammen (Jakob). Bewusst kein Creme, Terrakotta und Grün.
 
 ## Abstände und Rhythmus
 - Abstand zwischen Abschnitten: bewusst ruhiger als in der Vorlage (4,5 rem am Desktop, 3 rem am Handy), weil Jakob "klarer, ruhiger, übersichtlicher" wollte. Weicht von der Regel "eng" ab, gilt für Bettina.
@@ -32,6 +32,7 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 - Fast keine, siehe oben.
 
 ## Dos und Don'ts
+- Do: Unterseiten bekommen große Kopfbilder und große Bildflächen, weil dort größere Fotos und mehr Details hinkommen.
 - Do: Einzel- und Paarbegleitung als zwei klar unterscheidbare Einstiege (Denim-Ton und Rose-Ton), ein Knopf pro Bildschirm, Schritte nummeriert nur dort, wo es eine Reihenfolge ist.
 - Don't: Karten-Raster (außer den zwei Einstiegen), Großbuchstaben-Labels, Nummern, Verläufe, einzelne Wörter in Überschriften hervorheben.
 

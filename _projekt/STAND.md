@@ -1,6 +1,6 @@
 # Bettina Website: Projektstand und offene Punkte
 
-Stand: 2026-10-07. Vorschau: https://koojaa92.github.io/Bettina-Website/ (Entwurf 1, noindex). Phase: Entwurf 2 vor Interview (Interview am Freitag).
+Stand: 2026-10-07. Vorschau: https://koojaa92.github.io/Bettina-Website/ (Entwurf 1, noindex). Phase: Entwurf 2 (Feinschliff Farben, 2026-10-07) vor Interview (Interview am Freitag).
 Feedbackrunden: 0 von [vereinbart].
 
 ## Was steht
@@ -28,6 +28,8 @@ Feedbackrunden: 0 von [vereinbart].
 - [ ] Kontakt-Text nannte ein Formular, es gibt keins: Formular-Hinweis im Entwurf gestrichen (nur Mail-Link). Telefonnummer der alten Seite bewusst nicht übernommen, ihr Wunsch klären
 - [ ] Workshops: Webinar vom 23.06.2026 ist vorbei und wurde nicht übernommen, Seite zeigt "Derzeit ist kein Termin eingetragen". Webinar-Bild (KI-Optik) nicht übernommen
 - [ ] Impressum und Datenschutz: Angaben von ihr (Kleinunternehmerin nach § 19 UStG laut Angebotstexten, keine USt-IdNr. erfinden)
+
+- [ ] Unterseiten: Bildflächen sind bewusst groß gelassen, mit den echten Fotos und mehr Details am Freitag Abschnitte und Bildverhältnisse nachziehen
 
 ### Von der Kundin
 - [ ] Material liefern (Checkliste aus der Kunden-Handreichung: Absicht, Referenzseiten, Angebote, Fotos, vorhandene Texte, Pflichtangaben, Kanäle)

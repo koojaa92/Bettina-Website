@@ -9,9 +9,9 @@
   --papier: #ffffff;
   --tinte: #231b21;
   --leise: #5d535b;
-  --fuchsia: #b0236b;
-  --fuchsia-dunkel: #8c1a55;
-  --fuchsia-hell: #f9e6f0;
+  --fuchsia: #8a2755;
+  --fuchsia-dunkel: #6c1c42;
+  --fuchsia-hell: #f5e8ee;
   --gold: #e7b422;
   --gold-dunkel: #c8930c;
   --gold-hell: #fff3cc;
@@ -103,7 +103,6 @@ h2 + .text, h2 + p { margin-top: 1.25rem; }
 .hero { min-height: calc(100lvh - var(--kopf)); display: flex; align-items: center; padding: 3rem var(--rand); }
 .kopfbild { min-height: 32rem; display: flex; align-items: center; padding: 4rem var(--rand); }
 .hg { position: absolute; top: 0; right: 0; bottom: 0; width: 66%; height: 100%; object-fit: cover; object-position: 55% 25%; }
-.hg[src*="ueber-kopf"] { object-position: 50% 30%; }
 .hg-platzhalter { position: absolute; top: 0; right: 0; bottom: 0; width: 62%; display: grid; place-items: center; text-align: center; padding: 1rem 1rem 1rem 30%; background: var(--grau-platz); color: var(--leise); font-size: .95rem; }
 .hero::before, .kopfbild::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, #fff 30%, rgba(255, 255, 255, .88) 42%, rgba(255, 255, 255, 0) 70%); }
 .hero-inhalt { position: relative; z-index: 2; max-width: var(--breit); margin: 0 auto; width: 100%; }
@@ -238,10 +237,10 @@ h2 + .text, h2 + p { margin-top: 1.25rem; }
 @media (prefers-reduced-motion: reduce) { .faden .glanz { display: none; } }
 
 /* Fuß mit halbtransparentem Bild im Hintergrund */
-.fuss { position: relative; isolation: isolate; overflow: hidden; background: var(--tinte); color: #f1eef0; padding: 7rem var(--rand) 2.5rem; font-size: .98rem; }
-.fuss-bg { position: absolute; inset: 0; z-index: -2; display: grid; place-items: start end; padding: 1rem 1.25rem; background: #8b8489; color: rgba(255, 255, 255, .75); font-size: .85rem; }
+.fuss { position: relative; isolation: isolate; overflow: hidden; background: #4a1530; color: #f1eef0; padding: 7rem var(--rand) 2.5rem; font-size: .98rem; }
+.fuss-bg { position: absolute; inset: 0; z-index: -2; display: grid; place-items: start end; padding: 1rem 1.25rem; background: linear-gradient(135deg, #7a2650 0%, #4a1530 70%); color: rgba(255, 255, 255, .45); font-size: .85rem; }
 img.fuss-bg { object-fit: cover; width: 100%; height: 100%; padding: 0; }
-.fuss::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(35, 27, 33, .74), rgba(35, 27, 33, .92)); }
+.fuss::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(74, 21, 48, .55), rgba(60, 14, 38, .88)); }
 .fuss a { color: #f1eef0; }
 .fuss a:hover { color: var(--gold); }
 .fuss-innen { max-width: var(--breit); margin: 0 auto; }

@@ -62,4 +62,4 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Wörter immer: Verbindung, Aufrichtung, Mitgefühl, Klarheit, Lebendigkeit, Boden, Wurzeln, Würdigung.
 - Wörter nie: Selbstoptimierung, Potenzialentfaltung, Transformation, nachhaltige Veränderung, ganzheitlich, Heilungs- oder Erfolgsversprechen, kostenloses Erstgespräch.
 - Gefühl: „sowohl als auch“. Ruhig im Aufbau, lebendig in Bild, Schrift und Farbe. Keine Pastell-Therapie-Optik, kein spiritueller Coaching-Look, Natur nicht als Wellness-Kulisse.
-- Farben: Fuchsia (#B0236B) und Goldgelb (#E7B422) auf Weiß, Tinte #231B21. Siehe `_projekt/DESIGN.md`. Kein Grün, kein Creme.
+- Farben: Beeren-Fuchsia (#8A2755) und Goldgelb (#E7B422) auf Weiß, Tinte #231B21. Siehe `_projekt/DESIGN.md`. Kein Grün, kein Creme.

@@ -14,7 +14,7 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 
 ## Farben (Entscheidung Jakob/Bettina 9.10.2026)
 - Papier: Weiß #FFFFFF. Tinte: warmes Dunkel #231B21. Flächen: neutrales Grau (#F3F2F1), Bildplätze Grau (#E4E3E3). Kein Grün, kein Creme.
-- Hauptfarbe: **Fuchsia** #B0236B (Knöpfe, Links, kräftige Fläche „Wie ich arbeite“), dunkel #8C1A55 für Hover. Nicht Brombeer (zu dunkel), nicht Weinrot. Lässt sich zentral in `styles.css` (`--fuchsia`) ändern.
+- Hauptfarbe: **Beeren-Fuchsia** #8A2755 (Knöpfe, Links, kräftige Fläche „Wie ich arbeite“), dunkel #6C1C42 für Hover. Erste Fassung #B0236B war Jakob zu rosa, jetzt dezenter Richtung Brombeer. Footer in Beerenton (#4A1530 bis #7A2650), solange kein Footer-Bild da ist. Lässt sich zentral in `styles.css` (`--fuchsia`) ändern.
 - Zweitfarbe: **Goldgelb** #E7B422 (Linien, Punkte, Faden, Knopf im Footer), Hell #FFF3CC für Termin-Flächen. Gold nie als Textfarbe auf Weiß (Kontrast).
 - „Glitzer“: sparsam, nur ein feiner Glanz, der am Faden entlang läuft. Nicht flächig.
 

@@ -19,7 +19,8 @@ Quelle: Bettinas Angaben (9.10.2026) und die alte Website.
 - **Anrede: Du.** Texte der alten Seite siezen und werden mechanisch auf Du umgestellt, ohne Inhalt zu ändern.
 - **Gestaltung: „sowohl als auch“.** Ruhe und Weißraum als Grundlage, Kraft gezielt durch Bilder, Schrift und Farbe (Abschnitt 11).
 - **Farbrichtung:** Gelb/Gold und Brombeer. Die genaue Farbwelt wird mit einem Vergleich entschieden.
-- **Name:** „Lebensfäden“ ist Arbeitstitel und an genau einer Stelle austauschbar. „Bettina Wyciok“ ist immer sichtbar.
+- **Name:** „Lebensfäden“ wird jetzt ausprobiert, als Wortmarke und Dachmarke für alles. Er bleibt an genau einer Stelle austauschbar. „Bettina Wyciok“ ist immer sichtbar. Neue Domain voraussichtlich unter diesem Namen (.org), die bestehende Domain bleibt für E-Mail.
+- **Anmeldung und Gespräch (9.10.2026):** Kein Buchungstool vorerst. „Gespräch vereinbaren“ und „Anmelden“ sind Knöpfe mit Mail-Link und vorausgefülltem Betreff. Gruppenangebote zeigen aktuelle Termine (`tools/termine.json`), jeder Termin hat einen „Anmelden“-Knopf per Mail. Bei MSC führt ein externer Link zu Details und Anmeldung.
 - **Rechtliches:** Keine Wirkversprechen. Hinweise und Pflichtangaben (Impressum) erst festlegen, wenn Bettinas Angaben vorliegen. Keinen Wortlaut erfinden.
 - **Persönliches** kommt nur auf die Seite, wenn Bettina es ausdrücklich freigibt.
 - **Dieses Dokument enthält nur Website-Inhalte und Bauregeln.** Interview-Rohmaterial, Namensprüfung, rechtliche Einordnung und persönliche Notizen bleiben außerhalb des öffentlichen Repos.
@@ -162,7 +163,7 @@ Inhalte kommen aus Bettinas Material: Berufsweg, Methoden, die sie geprägt habe
 
 - Termine stehen nur in `tools/termine.json`, das Skript erzeugt daraus die Karten und Kalenderdateien (Vorlage: Repo koojaa92/Website-Essential-Guidance, Ordner `tools/`).
 - Anmeldung für Veranstaltungen pro Termin über einen externen Link, zum Beispiel Eventfrog. Es gibt kein eigenes Bezahlsystem. Welches Werkzeug, ist **[fehlt]**.
-- Gespräch vereinbaren: Online-Terminbuchung ist gewünscht, das Werkzeug ist offen (siehe STAND.md). Bis dahin ein Mail-Link mit vorausgefülltem Betreff.
+- Gespräch vereinbaren: Knopf mit Mail-Link und vorausgefülltem Betreff. Ein Buchungstool ist nicht geplant. Anmelden zu Gruppenterminen ebenfalls per Mail-Knopf.
 - Telefonnummer: Ob sie auf die Seite soll, ist **[fehlt]**.
 
 ## 10. Sprache
@@ -206,7 +207,8 @@ Inhalte kommen aus Bettinas Material: Berufsweg, Methoden, die sie geprägt habe
 - [ ] Drei häufigste Fragen pro Angebot (FAQ)
 - [ ] Texte für „Über mich“ freigeben
 - [ ] Fotos: Bestand sammeln, Rechte klären, Shooting ja oder nein
-- [ ] Buchungs- und Anmeldewerkzeug, Telefonnummer
+- [ ] Telefonnummer ja oder nein
+- [ ] Externer Link für den MSC-Kurs (Details und Anmeldung)
 - [ ] Blogtitel
 - [ ] Freigabe dieser Grundlage durch Bettina (Tor vor dem Bauen, Handbuch Phase 3)
 
@@ -222,6 +224,6 @@ Inhalte kommen aus Bettinas Material: Berufsweg, Methoden, die sie geprägt habe
 - Farben: erst Vergleich (Abschnitt 11), dann Entscheidung. Schrift: drei Paare in Originalgröße, nummeriert, dann Entscheidung.
 - Blog: blog/beitraege/*.md → tools/make-blog.py erzeugt HTML und Übersicht. Ohne Beiträge: Blogseite mit einem Satz Ankündigung, kein Blog-Abschnitt auf der Startseite.
 - Termine: tools/termine.json + tools/make-ics.py nach Vorlage koojaa92/Website-Essential-Guidance.
-- Gespräch vereinbaren: externer Kalender-Link, öffnet in neuem Tab (rel="noopener"). Bis zum Link ein Mail-Link mit Betreff.
+- Gespräch vereinbaren und Anmelden: Mail-Knopf mit vorausgefülltem Betreff. Externe Links (zum Beispiel MSC-Anbieter) öffnen in neuem Tab (rel="noopener").
 - noindex und Disallow bleiben gesetzt. Kein Rechtshinweis-Wortlaut erfinden.
 - Entscheidungen sofort in DESIGN.md und STAND.md nachtragen.

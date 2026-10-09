@@ -11,7 +11,7 @@ Stand: 2026-10-09. Vorschau: https://koojaa92.github.io/Bettina-Website/ (Entwur
 - [ ] Farbwelt entscheiden (Gelb/Gold, Brombeer, Pink oder Fuchsia) per Vergleich
 - [ ] Schrift entscheiden (drei Paare in Originalgröße)
 - [ ] Bilder einsetzen (Bildplätze: Hero, Einzel, Paar, Inner Trance Dance, Über mich, Footer)
-- [ ] Kalender-Link für „Gespräch vereinbaren“
+- [ ] Externer Link für den MSC-Kurs. „Gespräch vereinbaren“ und „Anmelden“ laufen über Mail-Knöpfe (entschieden 9.10.2026)
 - [ ] Angaben pro Angebot: Dauer, Preis, Orte, Anmeldung, Termine
 - [ ] Texte mit Bettina abgleichen und freigeben, inklusive Du-Fassung
 - [ ] Impressum und Datenschutz mit ihren Angaben
@@ -19,6 +19,7 @@ Stand: 2026-10-09. Vorschau: https://koojaa92.github.io/Bettina-Website/ (Entwur
 - [ ] Vor Live-Gang: `noindex` und `Disallow` entfernen, `sitemap.xml` und `llms.txt` mit echter Domain füllen
 
 ## Entschieden
+- Name „Lebensfäden“ wird als Wortmarke für alles ausprobiert (9.10.2026).
 - Eigenständiges Projekt, unabhängig von essential-guidance.space.
 - Vorschau über GitHub Pages, keine Domain nötig. Kein Bauen im Artefakt.
 - Arbeitsstil: wenig Technik zeigen, bei echten Problemen fragen, Alternativen nennen.

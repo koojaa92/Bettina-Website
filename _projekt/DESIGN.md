@@ -40,3 +40,10 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 
 ## Bewusst nicht übernommen (aus den Referenzen)
 - Keine Referenzseiten ausgewertet: Entwurf stammt aus der alten Seite (Texte, Fotos) und den Werkstatt-Standards. Das Webinar-Bild der alten Seite (KI-Optik) wurde nicht übernommen.
+
+## Handy (Entscheidung Jakob 9.10.2026)
+- Ein gleichmäßiger Lesefluss: Abschnitte oben und unten immer gleich viel Luft (3 rem), Absätze 1 rem, Überschrift zu Text 1 rem, Knöpfe 1,5 rem unter dem Text.
+- Hero und Seitenköpfe: Bild oben (etwa ein Drittel der sichtbaren Höhe), darunter der Text. Nichts wird abgeschnitten.
+- Knöpfe am Handy untereinander in voller Breite, gleich groß.
+- Sanftes Einrasten der Abschnitte (`scroll-snap-type: y proximity`), nie `mandatory`.
+- Geprüft bei 390 × 664 px (Höhe wie ein iPhone-Safari mit Leisten).

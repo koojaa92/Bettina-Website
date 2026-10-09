@@ -321,3 +321,72 @@ img.fuss-bg { object-fit: cover; width: 100%; height: 100%; padding: 0; }
 .abschnitt .innen > h2:first-child, .abschnitt .text > h2:first-child { margin-top: 0; }
 .abschnitt h3 { margin-block: 0 .5rem; }
 .abschnitt .knoepfe { margin-top: 2rem; }
+
+/* ===== Handy: ein ruhiger, gleichmäßiger Lesefluss (Abstände immer gleich) ===== */
+@media (max-width: 800px) {
+  :root { --bild-h: min(34svh, 15rem); --luft: 3rem; --absatz: 1rem; }
+  html { scroll-snap-type: y proximity; }
+  .hero, .kopfbild, .abschnitt, .fuss { scroll-snap-align: start; }
+
+  /* Abschnitte: oben und unten immer gleich viel Luft */
+  .abschnitt, .unter .abschnitt { padding: var(--luft) var(--rand); }
+  .abschnitt h2, .abschnitt .text > h2:first-child { margin: 0 0 var(--absatz); }
+  .abschnitt h3 { margin: 0 0 .5rem; }
+  .abschnitt .einleitung { margin: 0; }
+  h2 + p, h2 + .text, h2 + .einleitung { margin-top: 0; }
+  .text p, .manchmal p { margin-bottom: var(--absatz); }
+  .text > *:last-child, .manchmal > *:last-child { margin-bottom: 0; }
+
+  /* Hero und Seitenköpfe: Bild oben, darunter Text, kein Abschneiden */
+  .hero, .kopfbild { display: block; min-height: 0; padding: 0 0 var(--luft); }
+  .kopfbild { padding-bottom: 1.5rem; }
+  .kopfbild + .abschnitt, .kopfbild + .band { padding-top: 1.5rem; }
+  .hg, .kopfbild .hg { position: relative; display: block; width: 100%; height: var(--bild-h); object-position: 50% 14%; }
+  .kopfbild::before { height: var(--bild-h); }
+  .hg-platzhalter { position: relative; width: 100%; height: var(--bild-h); padding: 1rem; place-items: center; }
+  .hero::before, .kopfbild::before { inset: 0 0 auto 0; height: var(--bild-h); background: linear-gradient(180deg, rgba(255,255,255,0) 62%, #fff 100%); }
+  .kopfbild:has(.hg-platzhalter)::before { display: none; }
+  .hero-inhalt, .kopfbild .hero-inhalt, .kopfbild:has(.hg-platzhalter) .hero-inhalt { margin-top: -1.25rem; padding: 0 var(--rand); }
+  .kopfbild:has(.hg-platzhalter) .hero-inhalt { margin-top: 1.5rem; }
+  .ueberzeile { font-size: .9rem; margin-bottom: .75rem; }
+  .hero h1 { font-size: 2rem; margin-bottom: .75rem; }
+  .hero h1 .zweite { font-size: .6em; margin-top: .4rem; }
+  .kopfbild h1 { font-size: 2rem; margin-bottom: .75rem; }
+  .leitsatz { font-size: 1.15rem; margin-bottom: 1rem; }
+  .hero-inhalt p.lead { font-size: 1rem; }
+  .fakten { margin-bottom: 0; }
+
+  /* Knöpfe: volle Breite, gleich groß, gleicher Abstand */
+  .knoepfe, .abschnitt .knoepfe, .hero-inhalt .knoepfe { flex-direction: column; align-items: stretch; gap: .75rem; margin-top: 1.5rem; }
+  .knoepfe .knopf, .knoepfe .aus { width: 100%; }
+  .menue-offen .knopf { width: 100%; }
+
+  /* Angebote */
+  .angebote { gap: 2.5rem; margin-top: 2rem; }
+  .angebot-text { padding: 1.25rem 0 0; }
+  .angebot .knoepfe { margin-top: 1.5rem; padding-top: 0; }
+  .angebot h3 { font-size: 1.6rem; }
+  .angebot .claim { margin-bottom: .6rem; }
+
+  /* Bilder neben Text: erst Bild, dann Text, gleicher Abstand */
+  .zweispaltig { gap: 1.75rem; }
+  .zweispaltig .foto { max-width: none; }
+  .zweispaltig .foto img { aspect-ratio: 4 / 3; }
+  .platzhalter { aspect-ratio: 4 / 3; }
+
+  /* Listen, Kästen, Preise, Termine */
+  .zwei-spalten { margin: 1rem 0; }
+  .infobox div { padding: 1rem 1.25rem; }
+  .preise-hinweise { margin-top: 1rem; }
+  .termine { margin-top: 1.5rem; }
+  .blog-raster { margin-top: 2rem; gap: 2.5rem; }
+  .fehlt-block { margin-top: 1rem; }
+
+  /* Footer */
+  .fuss { padding-top: 3.5rem; padding-bottom: 2rem; }
+  .fuss-cta { margin-bottom: 2.5rem; }
+  .fuss-cta h2 { font-size: 1.7rem; }
+
+  /* Faden: schmal, am Rand */
+  .faden { opacity: .9; }
+}

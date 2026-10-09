@@ -14,7 +14,7 @@ Stand: 2026-10-09. Vorschau: https://koojaa92.github.io/Bettina-Website/ (Entwur
 
 ## Bildplätze (Dateiname in `bilder/`, fehlt die Datei, steht ein grauer Platz)
 `hero` (Start), `person` (Wer ich bin), `ueber-kopf` (Über mich), `raum` (Praxisraum, Paar-Karte und Einzelseite), `einzel` (Karte Einzel), `ifs` (bunte Figuren, Seite Einzel), `itd` (Inner Trance Dance), `msc` (MSC), `faden` (Natur, Startseite), `arbeit` (Fuchsia-Gemälde als Hintergrund bei „Wie ich arbeite“), `fuss` (Footer-Hintergrund), `einzel-kopf`, `paar-kopf`, `itd-kopf`, `kurse-kopf`, `blog-kopf`, `kontakt-kopf` (Bilder in den Seitenköpfen), `ort` (Haus im Schwarzwald, Über mich), `paar-raum`.
-Vorhanden: `hero`, `person`, `ueber-kopf`, `einzel`, `einzel-kopf`, `raum`, `arbeit`, `itd-kopf`, `ort`, `kontakt-kopf`, `faden`, `fuss` (Abendstimmung im Raum), `itd` (Kerze im Raum), `kurse-kopf`, `paar-kopf`, `paar-raum` (Winter), `blog-kopf` (rosa Gemälde). Es fehlen noch als Dateien: `msc` (Lavendel), `ifs` (bunte Figuren), Wurzeln, Keimling, Terrasse, dunkler Abendhimmel. Dateiformat WebP, Breite 1200 bis 1600 px.
+Vorhanden: `hero`, `person`, `ueber-kopf`, `einzel`, `einzel-kopf`, `raum`, `arbeit`, `itd-kopf`, `ort`, `kontakt-kopf`, `faden`, `fuss` (Abendstimmung im Raum), `itd` (Kerze im Raum), `kurse-kopf`, `paar-kopf`, `paar-raum` (Winter), `blog-kopf` (rosa Gemälde), `ifs` (bunte Figuren, Einzelbegleitung). Es fehlen noch als Dateien: `msc` (Lavendel), Wurzeln, Keimling, Terrasse, dunkler Abendhimmel. Dateiformat WebP, Breite 1200 bis 1600 px.
 
 ## Offene Punkte
 - [ ] Bilder als Dateien liefern und zuordnen (Liste oben)

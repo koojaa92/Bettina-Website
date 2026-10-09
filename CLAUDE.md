@@ -50,13 +50,13 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - [Bei Begleitungsangeboten: Hinweis „keine Heilkunde, ersetzt keine Therapie, Teilnahme in Eigenverantwortung“.]
 
 ## Marke (Entwurf 9.10.2026, nicht freigegeben)
-- Dachmarke: Lebensfäden (Arbeitstitel, Name noch offen). Absenderin immer sichtbar: Bettina Wyciok.
+- Dachmarke: Lebensfäden (Arbeitstitel, austauschbar). Absenderin immer sichtbar: Bettina Wyciok.
 - Leitgedanke: Verbindung ist das Dach, Aufrichtung die Richtung.
 - Angebote: Einzelbegleitung · Paar- und Beziehungsbegleitung · Inner Trance Dance · Kurse und Workshops (MSC).
 - Orte: Freiburg · bei Furtwangen im Schwarzwald · online.
 - Mail: kontakt@bettinawyciok.de, Betreff je Knopf.
 - Anrede: Du (Bettina, 9.10.2026). Texte der alten Seite siezen und werden mechanisch umgestellt.
-- Qualifikation: Heilpraktiker-Erlaubnis, ob voll oder eingeschränkt (Psychotherapie) ist offen. Bis dahin keinen Rechtshinweis-Wortlaut erfinden, keine Wirkversprechen.
+- Rechtliches: keine Wirkversprechen. Hinweise und Pflichtangaben erst festlegen, wenn Bettinas Angaben vorliegen. Keinen Wortlaut erfinden.
 - Die eine Handlung: „Gespräch vereinbaren“ (externer Kalender-Link, neuer Tab); bei Inner Trance Dance „Anmelden“.
 - Schreibweisen: Lebensfäden, Inner Trance Dance, Internal Family Systems (IFS), Mindful Self-Compassion (MSC).
 - Wörter immer: Verbindung, Aufrichtung, Mitgefühl, Klarheit, Lebendigkeit, Boden, Wurzeln, Würdigung.

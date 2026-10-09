@@ -1,8 +1,8 @@
 # Lebensfäden: Grundlage und Bauauftrag für Claude Code
 
-Website von Bettina Wyciok. Entwurf vom 9.10.2026, **noch nicht von Bettina freigegeben**. Nachtrag 9.10.2026 mit vier Aussagen von Bettina (Gestaltung, Farben, Qualifikation, Anrede), siehe Abschnitte 0, 10, 11.
+Website von Bettina Wyciok. Entwurf vom 9.10.2026, **noch nicht von Bettina freigegeben**. Festlegungen siehe Abschnitt 0.
 Repo-Fassung: Destillat ohne private Details, das Rohmaterial bleibt außerhalb des Repos.
-Quelle: Bettinas Dokument „Meine neue Website“ (9.10.2026), alte Seite bettinawyciok.de, Repo-Stand `516a47f`, Vorlage essential-guidance.space.
+Quelle: Bettinas Angaben (9.10.2026) und die alte Website.
 
 **Legende für jede Aussage**
 - **[B]** Bettina, wörtlich
@@ -10,26 +10,19 @@ Quelle: Bettinas Dokument „Meine neue Website“ (9.10.2026), alte Seite betti
 - **[B-alt]** von ihrer alten Website
 - **[J]** Jakobs Entscheidung oder Idee
 - **[C]** Vorschlag von Claude
-- **[GPT]** aus der ChatGPT-Namensanalyse in ihrem Dokument
 - **[fehlt]** Angabe fehlt, mit Bettina klären
 
 ---
 
-## 0. Vor dem Bauen klären (kritische Punkte)
+## 0. Festlegungen (Stand 9.10.2026)
 
-1. **Der Name ist noch nicht entschieden.** „Lebensfäden“ als Dachmarke ist **[J]**. Bettina schreibt: „Die Entscheidung ist noch offen.“ **[B]** Als Kandidaten nennt sie „In Verbindung“ und „Seeds of Connection“ und erwähnt auch ihren eigenen Namen als Hauptmarke. Lebensfäden „beschäftigt“ sie, „auch als gestalterisches Element“ **[B]**. In der ChatGPT-Analyse kam Lebensfäden nicht in die engere Wahl **[GPT]**.
-   **Das Risiko:** Laut ihrem Dokument gibt es bereits eine Praxis mit ähnlichem Namen im selben Feld, und die Domain lebensfaeden.de ist nur zu kaufen. Vor einer Entscheidung sollten zwei Dinge geprüft werden: wie nah diese Praxis an Bettinas Angebot liegt, und ob „Lebensfäden“ im DPMA-Register als Marke eingetragen ist.
-   **Vorschlag [C]:** Lebensfäden als Dachmarke, mit „Bettina Wyciok“ immer gut sichtbar daneben. Die Domain bettinawyciok.de bleibt, weil E-Mail daran hängt und die Seite gefunden wird. Eine zweite Domain kann später dazukommen. So kann man die Seite auch bauen, solange der Name noch offen ist: Die Wortmarke ist an einer einzigen Stelle austauschbar.
-
-2. **Ruhig oder lebendig? Entschieden [B]: „Sowohl als auch.“** Ruhe, Weißraum und Dezenz bleiben die Grundlage, das Kräftige kommt gezielt dazu: vor allem durch Bilder, aber auch durch Schrift und Farbe. Bettina wünscht sich „Lebendig. Klar. Verbindend.“, „moderner, frischer, farbiger“ und den „Wechsel zwischen ruhigen und lebendigen Bereichen“. Jakob wünscht „klar, raumhaft, ruhig, modern, schick“. Der heutige Entwurf 2 ist ihr noch zu dezent. Umsetzung in Abschnitt 11.
-
-3. **Rechtliche Einordnung.** Bettina hat eine Heilpraktiker-Erlaubnis (Aussage 9.10.2026), die Begriffe „Therapie“ und „therapeutisch“ sind damit grundsätzlich möglich. **[fehlt]:** Ist es die volle Erlaubnis oder die eingeschränkte für Psychotherapie? Das bestimmt den genauen Wortlaut und die Pflichtangaben im Impressum (zuständige Behörde, Berufsbezeichnung). Die alte Seite nennt „Heilpraktikerin mit Erlaubnis zur Ausübung der Heilkunde“ **[B-alt]**, das ist ein Hinweis, aber noch keine Klärung. Wirkversprechen bleiben ausgeschlossen. Kein Rechtshinweis-Wortlaut wird erfunden.
-
-4. **Persönliches.** Welche persönlichen Lebensphasen auf die öffentliche Seite gehören, entscheidet Bettina. Bis dahin bleiben sie draußen. **[C]**
-
-5. **Angebote, die im neuen Dokument fehlen.** Die alte Seite hat Workshops und Seminare zu IFS, Trauma und Nervensystem und zu Beziehungen, dazu einen Podcast-Auftritt **[B-alt]**. Die ChatGPT-Analyse nennt ein „Trauerfeuer“ **[GPT]**. Zu klären: Gibt es das noch, und soll es sichtbar sein? Ihr Grundsatz dazu: Weitere Formate kommen erst auf die Seite, wenn sie „ausreichend entwickelt sind“ **[B]**.
-
-6. **Anrede: Du. Entschieden [B]:** „Ich würde gerne jetzt eigentlich zu duzen übergehen.“ Siezen sei „nicht mehr zeitgemäß“ und passe „nicht zu mir“. Die Texte der alten Seite siezen und werden mechanisch auf Du umgestellt (Sie → du, Ihr → dein, Verbformen), ohne Inhalt zu ändern. Bettina gibt die Du-Fassung frei.
+- **Anrede: Du.** Texte der alten Seite siezen und werden mechanisch auf Du umgestellt, ohne Inhalt zu ändern.
+- **Gestaltung: „sowohl als auch“.** Ruhe und Weißraum als Grundlage, Kraft gezielt durch Bilder, Schrift und Farbe (Abschnitt 11).
+- **Farbrichtung:** Gelb/Gold und Brombeer. Die genaue Farbwelt wird mit einem Vergleich entschieden.
+- **Name:** „Lebensfäden“ ist Arbeitstitel und an genau einer Stelle austauschbar. „Bettina Wyciok“ ist immer sichtbar.
+- **Rechtliches:** Keine Wirkversprechen. Hinweise und Pflichtangaben (Impressum) erst festlegen, wenn Bettinas Angaben vorliegen. Keinen Wortlaut erfinden.
+- **Persönliches** kommt nur auf die Seite, wenn Bettina es ausdrücklich freigibt.
+- **Dieses Dokument enthält nur Website-Inhalte und Bauregeln.** Interview-Rohmaterial, Namensprüfung, rechtliche Einordnung und persönliche Notizen bleiben außerhalb des öffentlichen Repos.
 
 ---
 
@@ -95,8 +88,8 @@ Die Texte sind Vorschläge zur Freigabe. Bettinas Sätze sind so wenig wie mögl
 - H1, drei Optionen:
   - a) „Wieder in Verbindung kommen. Mit sich selbst, mit anderen, mit dem Leben.“ **[B~]**
   - b) „Mehr Kapazität für das Leben, wie es tatsächlich ist.“ **[B]**
-  - c) „Was uns verbindet. Was uns trägt. Was neu entstehen darf.“ **[GPT]**
-  - Empfehlung **[C]:** a) als H1 und b) als erster Satz darunter. Begründung: Der Name ist poetisch und deshalb erklärungsbedürftig, also muss die Überschrift konkret sagen, worum es geht. Das ist auch der Haupteinwand in der Analyse **[GPT]**.
+  - c) „Was uns verbindet. Was uns trägt. Was neu entstehen darf.“
+  - Empfehlung **[C]:** a) als H1 und b) als erster Satz darunter. Begründung: Der Name ist poetisch und deshalb erklärungsbedürftig, also muss die Überschrift konkret sagen, worum es geht. Das ist auch der Haupteinwand in der Analyse.
 - Lead **[B]:** „Ich begleite Menschen dabei, wieder in Verbindung mit sich selbst zu kommen, sich besser zu verstehen und auch in schwierigen Lebenssituationen Halt, Klarheit und ihren eigenen Weg zu finden.“
 - Knöpfe: „Angebote ansehen“ · „Gespräch vereinbaren“
 
@@ -149,15 +142,14 @@ Alle Angebotsseiten folgen derselben Abfolge (Handbuch Abschnitt 7): Kopf mit Ü
 - Termine aus `tools/termine.json`
 
 **Kurse und Workshops**, MSC und weitere Formate:
-- MSC **[B]**. Workshops und Seminare der alten Seite **[B-alt]** nur übernehmen, wenn Bettina sie weiter anbietet (siehe 0.5).
+- MSC **[B]**. Workshops und Seminare der alten Seite **[B-alt]** nur übernehmen, wenn Bettina sie weiter anbietet.
 - Formate und Kooperationen, die noch in Entwicklung sind, erst zeigen, wenn sie fertig sind **[B]**.
 
-**Hinweis auf allen Begleitungsseiten:** Wortlaut erst festlegen, wenn 0.3 geklärt ist.
+**Hinweis auf allen Begleitungsseiten:** Wortlaut erst festlegen, wenn Bettinas Angaben vorliegen.
 
 ## 7. Über mich
 
-Inhalte **[B]** aus Teil A, Abschnitte 10, 11, 12 und 14: Unternehmensjahre und Wendepunkt (der Ausstieg aus der Karriere), Reisen und Leben in verschiedenen Ländern, die Methoden, die sie geprägt haben, wie sie einen Raum hält („Alles, was sich zeigt, darf zunächst da sein.“) und der Mensch (Schwarzwald, Pflanzen, Räucherbündel, Technik, Tanz).
-Draußen bis zu Bettinas Entscheidung: Kindheit und schwierige Lebensphasen (0.4). Die Vision aus Abschnitt 13 als Schlussabsatz nur, wenn sie das möchte. Sie schreibt selbst: „noch in Entwicklung“ **[B]**.
+Inhalte kommen aus Bettinas Material: Berufsweg, Methoden, die sie geprägt haben, wie sie einen Raum hält („Alles, was sich zeigt, darf zunächst da sein.“) und der Mensch (Schwarzwald, Pflanzen, Natur, Tanz). Weitere persönliche Themen und die Vision erst nach ihrer ausdrücklichen Entscheidung. Qualifikationen als Liste, wie auf der alten Seite.
 
 ## 8. Blog
 
@@ -175,7 +167,7 @@ Draußen bis zu Bettinas Entscheidung: Kindheit und schwierige Lebensphasen (0.4
 
 ## 10. Sprache
 
-- **Anrede [B]:** Du (siehe 0.6).
+- **Anrede [B]:** Du.
 - **Ton [B]:** „Persönlich, direkt, klar, warm und lebendig. Mit Tiefe, aber ohne künstliche Schwere. Professionell, ohne distanziert zu sein.“
 - **Wörter, die tragen [B]:** Verbindung, Verbundenheit, Begegnung, Mitgefühl, Vertrauen, Geborgenheit · Aufrichtung, innere Kraft, Klarheit, Selbstvertrauen, Ausrichtung · Freude, Neugier, Lebendigkeit, Körper, Bewegung, Tanz · Boden, Wurzeln, Verwurzelung, Himmel, Weite, Natur · Achtung, Würdigung, Offenheit, Frieden, Zuversicht. Dazu Sätze, die sie geprägt hat: „an der eigenen Seite stehen“, „Kapazität für das Leben, wie es tatsächlich ist“.
 - **Wörter, die nie vorkommen [B]:** Selbstoptimierung, Potenzialentfaltung, Transformation (als Schlagwort), nachhaltige Veränderung, ganzheitlich (ohne Erklärung), Heilungsversprechen, Erfolgsversprechen, spirituell aufgeladene Formulierungen ohne Inhalt.
@@ -203,24 +195,16 @@ Draußen bis zu Bettinas Entscheidung: Kindheit und schwierige Lebensphasen (0.4
 
 **Bewegung:** sanft. Nur der Faden bewegt sich und die Hero-Zeilen blenden einmal ein.
 
-## 12. Referenzseiten
+## 12. Offen und fehlt
 
-Bettina hat Seiten gesammelt **[B]**: echtleben.org, kristinbub.com, in-resonance.ch, leasimonebogner.com, paarberatung-oberpfalz.de, loveevolution.me, das-leben-weben.de, schneewitta.com, charifas.world, hueterindesfrauenkreis.com. Für den Business-Bereich: fuehrungskultur.com, pioneers-partners.com, thesomaticbusiness.com. Mit dem Vermerk „eher nein, aber professionell“: leben-in-bezug.de, anyalange.de.
-**[fehlt]:** Was genau gefällt an jeder Seite (Schrift, Farbe, Aufbau, Bilder)? Ohne diesen Satz sind Referenzen nur eine Sammlung. Mit Bettina drei Favoriten auswählen und je einen Satz dazu festhalten.
-Als technische Vorlage dient **[J]** essential-guidance.space: Aufbau der Startseite, gleich gebaute Angebotsblöcke mit Überzeile, Terminkarten, `tools/`.
-B2B (Führung, Organisationen) taucht in den Referenzen auf, ist aber kein Angebot im Dokument. Das kommt später und wird nicht jetzt gebaut **[C]**.
-
-## 13. Offen und fehlt
-
-- [ ] Name freigeben, Lebensfäden-Konflikt prüfen (0.1)
+- [ ] Name freigeben
 - [x] Anrede: Du (entschieden 9.10.2026)
 - [ ] Farbwelt wählen: drei bis vier Töne nebeneinander (Gold/Gelb, Brombeer, Pink oder Fuchsia)
-- [ ] Qualifikation: volle oder eingeschränkte Heilpraktiker-Erlaubnis, rechtlicher Hinweis, Impressum (0.3)
+- [ ] Angaben für Impressum und Hinweise von Bettina
 - [ ] Pro Angebot: Dauer, Preis, Orte, Anmeldeweg; ITD-Termin und -Ort; MSC-Format
-- [ ] Welche alten Workshops bleiben, Trauerfeuer, Podcast (0.5)
+- [ ] Welche bisherigen Workshops und Formate bleiben sichtbar, Podcast
 - [ ] Drei häufigste Fragen pro Angebot (FAQ)
-- [ ] Persönliches auf „Über mich“ (0.4)
-- [ ] Referenzen: drei Favoriten mit „was genau gefällt“
+- [ ] Texte für „Über mich“ freigeben
 - [ ] Fotos: Bestand sammeln, Rechte klären, Shooting ja oder nein
 - [ ] Buchungs- und Anmeldewerkzeug, Telefonnummer
 - [ ] Blogtitel
@@ -228,9 +212,9 @@ B2B (Führung, Organisationen) taucht in den Referenzen auf, ist aber kein Angeb
 
 ---
 
-## 14. Regeln für Entwurf 3
+## 13. Regeln für Entwurf 3
 
-- Texte genau so übernehmen, wie sie in dieser Grundlage stehen. Nichts umschreiben. Einzige Ausnahme: die mechanische Umstellung auf Du (0.6). Wo [fehlt] steht: sichtbarer, grauer Platzhalter, nichts erfinden.
+- Texte genau so übernehmen, wie sie in dieser Grundlage stehen. Nichts umschreiben. Einzige Ausnahme: die mechanische Umstellung auf Du. Wo [fehlt] steht: sichtbarer, grauer Platzhalter, nichts erfinden.
 - Die Wortmarke „Lebensfäden“ steht an genau einer Stelle (Kopf) und ist austauschbar. „Bettina Wyciok“ ist immer sichtbar.
 - Alte Pfade behalten (/einzelbegleitung/, /paarbegleitung/, /workshops-seminare/, /about/, /contact/). Neu: /inner-trance-dance/, /blog/.
 - Startseite: vier gleich gebaute Angebotsblöcke wie bei essential-guidance.space (Überzeile, Titel, Claim, Text, zwei Knöpfe).

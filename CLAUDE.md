@@ -7,7 +7,7 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Repo: koojaa92/Bettina-Website. Live ist der Branch `main` (GitHub Pages).
 - Domain: voraussichtlich die der bestehenden Seite, Anbieter und DNS noch zu klären. E-Mail an der Domain: [ja/nein]. MX- und TXT-Einträge nie ändern.
 - Website-Typ und Ziel: [z. B. Angebots-Website mit Terminen / One-Pager / Portfolio]. Funktionen: [...]
-- Aktuelle Phase: Entwurf 2 steht (aus den Texten und Fotos der alten Seite, nicht freigegeben, `noindex`). Entwurf 3 wird nach `_projekt/GRUNDLAGE.md` geplant. Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
+- Aktuelle Phase: Entwurf 3 steht nach `_projekt/GRUNDLAGE.md` (nicht freigegeben, `noindex`). Bewusste Entscheidung von Jakob, vor dem Interview zu bauen. Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
 
 ## Arbeitsweise
 - Sprache: Deutsch, Du-Form, sofern unten nicht anders festgelegt.
@@ -28,7 +28,7 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Schriften selbst hosten oder über Bunny Fonts, nie direkt von Google Fonts.
 - Formulare nur, wenn sie wirklich senden. Sonst Mail-Link.
 - FAQ sichtbar und als FAQPage-JSON-LD im `<head>`, beides angleichen. FAQ-Abschnitte mit grauem Hintergrund.
-- Termine (falls vorhanden) nur in `tools/termine.json`, danach `python3 tools/make-ics.py`.
+- Termine nur in `tools/termine.json`, danach `python3 tools/make-termine.py`. Blogbeiträge als Markdown in `blog/beitraege/`, danach `python3 tools/make-blog.py`. Karten und Beitragsseiten nie von Hand ändern.
 - `llms.txt` und `sitemap.xml` bei Änderungen an Angeboten, Preisen oder Seiten mitpflegen.
 
 ## Design
@@ -62,4 +62,4 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Wörter immer: Verbindung, Aufrichtung, Mitgefühl, Klarheit, Lebendigkeit, Boden, Wurzeln, Würdigung.
 - Wörter nie: Selbstoptimierung, Potenzialentfaltung, Transformation, nachhaltige Veränderung, ganzheitlich, Heilungs- oder Erfolgsversprechen, kostenloses Erstgespräch.
 - Gefühl: „sowohl als auch“. Ruhig im Aufbau, lebendig in Bild, Schrift und Farbe. Keine Pastell-Therapie-Optik, kein spiritueller Coaching-Look, Natur nicht als Wellness-Kulisse.
-- Farben: Gelb/Gold (sparsam mit Schimmer) und Brombeer, Pink/Fuchsia offen. Wird mit Farbvergleich entschieden. Bisherige Töne (Blau, Rose) sind ihr zu dezent.
+- Farben: Fuchsia (#B0236B) und Goldgelb (#E7B422) auf Weiß, Tinte #231B21. Siehe `_projekt/DESIGN.md`. Kein Grün, kein Creme.

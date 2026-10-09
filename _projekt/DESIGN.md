@@ -1,4 +1,4 @@
-# Bettina Wyciok: Designsystem (Entwurf 2, nicht freigegeben)
+# Lebensfäden · Bettina Wyciok: Designsystem (Entwurf 3, nicht freigegeben)
 
 Verbindlich für alle Seiten. Abgeleitet aus den Referenzseiten (siehe GRUNDLAGE.md), keine Kopie.
 Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle Breite, läuft nach links weich in die Seitenfarbe aus (am Handy oben, läuft nach unten aus). Drei Zeilen des Slogans, die dritte in Rose. Methoden-Leiste darunter. Unterseiten haben denselben Kopf mit Bild oder beschriftetem Bildplatz. Von Jakob gewünscht (Referenz aus einem früheren Entwurf).
@@ -12,11 +12,11 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 - Fließtext: Nunito Sans 400/600/700, 17 px, Zeilenhöhe 1,65.
 - Laden: selbst gehostet (Ordner schriften/, Latin-Schnitte von Bunny Fonts, keine Verbindung zu Fremdservern).
 
-## Farben
-- Grund (Tinte): #1E2B35
-- Papier: #F7F7F5, Abschnitte und Bildplätze in neutralem Grau (#ECECED und #E4E5E7). Kein Grün (Jakob: nicht sinnvoll).
-- Akzent: Denim #2F5D7C (Knöpfe, Links), Rose #B76E79 (nur kleine Akzente: Listenpunkte, aktiver Menüpunkt, Fokus)
-- Herkunft: Blau der Bluse und Rosé des Kissens aus ihren Fotos. Blau und leichtes Rot funktionieren zusammen (Jakob). Bewusst kein Creme, Terrakotta und Grün.
+## Farben (Entscheidung Jakob/Bettina 9.10.2026)
+- Papier: Weiß #FFFFFF. Tinte: warmes Dunkel #231B21. Flächen: neutrales Grau (#F3F2F1), Bildplätze Grau (#E4E3E3). Kein Grün, kein Creme.
+- Hauptfarbe: **Fuchsia** #B0236B (Knöpfe, Links, kräftige Fläche „Wie ich arbeite“), dunkel #8C1A55 für Hover. Nicht Brombeer (zu dunkel), nicht Weinrot. Lässt sich zentral in `styles.css` (`--fuchsia`) ändern.
+- Zweitfarbe: **Goldgelb** #E7B422 (Linien, Punkte, Faden, Knopf im Footer), Hell #FFF3CC für Termin-Flächen. Gold nie als Textfarbe auf Weiß (Kontrast).
+- „Glitzer“: sparsam, nur ein feiner Glanz, der am Faden entlang läuft. Nicht flächig.
 
 ## Abstände und Rhythmus
 - Abstand zwischen Abschnitten: bewusst ruhiger als in der Vorlage (6,5 rem am Desktop, 3,5 rem am Handy), weil Jakob "klarer, ruhiger, übersichtlicher" wollte. Weicht von der Regel "eng" ab, gilt für Bettina.
@@ -32,6 +32,7 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 - Fast keine, siehe oben.
 
 ## Dos und Don'ts
+- Do: Der Faden: eine feine goldene Linie im linken Rand, baut sich beim Scrollen auf und knüpft an Abschnittsüberschriften (Knoten). Statisch bei reduzierter Bewegung. Einmal pro Seite.
 - Do: Gesprächs-Aufruf und Kontakt stehen im Footer, mit halbtransparentem Bild (zunächst Bildplatz) im Hintergrund. Keine separaten Aufruf-Bänder.
 - Do: Unterseiten bekommen große Kopfbilder und große Bildflächen, weil dort größere Fotos und mehr Details hinkommen.
 - Do: Einzel- und Paarbegleitung als zwei klar unterscheidbare Einstiege (Denim-Ton und Rose-Ton), ein Knopf pro Bildschirm, Schritte nummeriert nur dort, wo es eine Reihenfolge ist.

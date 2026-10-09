@@ -242,12 +242,12 @@ h2 + .text, h2 + p { margin-top: 1.25rem; }
 
 /* Faden */
 .faden { position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; z-index: 5; overflow: visible; }
-.faden path { fill: none; stroke-linecap: round; }
+.faden path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
 .faden .grund { stroke: url(#fadenverlauf); stroke-width: 2; }
-.faden .glanz { stroke: #fff6c8; stroke-width: 2.4; stroke-dasharray: 5 460; opacity: .95; }
+.faden .glanz { stroke: #fff6c8; stroke-width: 2.4; stroke-dasharray: 4 520; opacity: .9; }
 .faden .knoten { fill: var(--gold); stroke: #fff; stroke-width: 2; opacity: 0; transition: opacity .6s ease; }
 .faden .knoten.an { opacity: 1; }
-@media (prefers-reduced-motion: no-preference) { .faden .glanz { animation: glanz 16s linear infinite; } @keyframes glanz { to { stroke-dashoffset: -2400; } } }
+@media (prefers-reduced-motion: no-preference) { .faden .glanz { animation: glanz 60s linear infinite; } @keyframes glanz { to { stroke-dashoffset: -2400; } } }
 @media (prefers-reduced-motion: reduce) { .faden .glanz { display: none; } }
 
 /* Fuß mit halbtransparentem Bild im Hintergrund */
@@ -345,8 +345,6 @@ img.fuss-bg { object-fit: cover; width: 100%; height: 100%; padding: 0; }
 /* ===== Handy: ein ruhiger, gleichmäßiger Lesefluss (Abstände immer gleich) ===== */
 @media (max-width: 800px) {
   :root { --bild-h: min(34svh, 15rem); --luft: 3rem; --absatz: 1rem; }
-  html { scroll-snap-type: y proximity; }
-  .hero, .kopfbild, .abschnitt, .fuss { scroll-snap-align: start; }
 
   /* Abschnitte: oben und unten immer gleich viel Luft */
   .abschnitt, .unter .abschnitt { padding: var(--luft) var(--rand); }

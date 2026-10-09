@@ -45,5 +45,10 @@ Freigegeben von der Kundin am: [noch nicht]. Hero: großes Bild über die volle 
 - Ein gleichmäßiger Lesefluss: Abschnitte oben und unten immer gleich viel Luft (3 rem), Absätze 1 rem, Überschrift zu Text 1 rem, Knöpfe 1,5 rem unter dem Text.
 - Hero und Seitenköpfe: Bild oben (etwa ein Drittel der sichtbaren Höhe), darunter der Text. Nichts wird abgeschnitten.
 - Knöpfe am Handy untereinander in voller Breite, gleich groß.
-- Sanftes Einrasten der Abschnitte (`scroll-snap-type: y proximity`), nie `mandatory`.
+- Einrasten der Abschnitte: zunächst aus (siehe „Der Faden“).
 - Geprüft bei 390 × 664 px (Höhe wie ein iPhone-Safari mit Leisten).
+
+## Der Faden (Stand 9.10.2026)
+- Leicht unregelmäßiger Verlauf mit kleinen Wellen und einzelnen Schlaufen zwischen den Überschriften (nur wo der Abstand groß genug ist).
+- Der goldene Glanz entlang des Fadens läuft langsam (60 Sekunden pro Durchlauf), bei reduzierter Bewegung gar nicht.
+- Sanftes Einrasten der Abschnitte (Scroll-Snap) ist **entfernt**: Es irritierte. Erst wieder prüfen, wenn Abstände, Inhalte und alle Originalbilder stehen.

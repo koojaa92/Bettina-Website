@@ -66,16 +66,42 @@
     var rand = Math.max(8, (a.breite - 1152) / 2 - 36);
     var klein = a.breite < 900;
     var xa = klein ? 6 : Math.min(rand, 60), xb = xa + (klein ? 8 : 22);
-    var d = 'M ' + xa + ' ' + Math.max(0, a.y[0] - 120);
-    var px = xa, py = Math.max(0, a.y[0] - 120);
-    var punkte = [];
+    // Weicher, nicht ganz gerader Verlauf mit kleinen Schlaufen zwischen den Überschriften
+    var start0 = Math.max(0, a.y[0] - 120);
+    var pts = [], punkte = [];
+    var R = klein ? 9 : 17;
+    function bez(p0, p1, p2, p3, t) {
+      var u = 1 - t;
+      return [u*u*u*p0[0] + 3*u*u*t*p1[0] + 3*u*t*t*p2[0] + t*t*t*p3[0],
+              u*u*u*p0[1] + 3*u*u*t*p1[1] + 3*u*t*t*p2[1] + t*t*t*p3[1]];
+    }
+    var prev = [xa, start0];
+    pts.push(prev);
     a.y.forEach(function (y, i) {
       var x = i % 2 ? xa : xb;
-      var m = (y - py) / 2;
-      d += ' C ' + px + ' ' + (py + m) + ', ' + x + ' ' + (y - m) + ', ' + x + ' ' + y;
-      px = x; py = y; punkte.push([x, y]);
+      var m = (y - prev[1]) / 2;
+      var P0 = prev, P1 = [prev[0], prev[1] + m], P2 = [x, y - m], P3 = [x, y];
+      var mitSchlaufe = (i % 2 === 0) && (y - prev[1]) > 260;
+      var n = 70, schlaufeBei = Math.round(n * 0.5), bisY = -1;
+      for (var k = 1; k <= n; k++) {
+        var t = k / n, q = bez(P0, P1, P2, P3, t);
+        q[0] += (klein ? 2 : 4) * Math.sin(t * Math.PI * 3 + i);
+        if (q[1] < bisY) continue;
+        pts.push(q);
+        if (mitSchlaufe && k === schlaufeBei) {
+          // eine kleine, echte Schlaufe (der Faden dreht sich einmal um sich selbst)
+          var r = klein ? 11 : 20, rich = (i % 4 === 0) ? 1 : -1, ab = r * 0.5;
+          for (var f = 0.15; f <= 2 * Math.PI + 0.001; f += 0.15) {
+            pts.push([q[0] + rich * r * (1 - Math.cos(f)), q[1] + ab * f - r * Math.sin(f)]);
+          }
+          bisY = q[1] + ab * 2 * Math.PI + 4;
+        }
+      }
+      punkte.push([x, y]);
+      prev = P3;
     });
-    d += ' L ' + px + ' ' + (a.hoehe + 40);
+    pts.push([prev[0], a.hoehe + 40]);
+    var d = 'M ' + pts.map(function (q) { return q[0].toFixed(1) + ' ' + q[1].toFixed(1); }).join(' L ');
 
     svg = document.createElementNS(NS, 'svg');
     svg.setAttribute('class', 'faden');

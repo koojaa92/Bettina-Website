@@ -7,7 +7,7 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Repo: koojaa92/Bettina-Website. Live ist der Branch `main` (GitHub Pages).
 - Domain: voraussichtlich die der bestehenden Seite, Anbieter und DNS noch zu klären. E-Mail an der Domain: [ja/nein]. MX- und TXT-Einträge nie ändern.
 - Website-Typ und Ziel: [z. B. Angebots-Website mit Terminen / One-Pager / Portfolio]. Funktionen: [...]
-- Aktuelle Phase: Entwurf 2 steht (aus den Texten und Fotos der alten Seite, nicht freigegeben, `noindex`). Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
+- Aktuelle Phase: Entwurf 2 steht (aus den Texten und Fotos der alten Seite, nicht freigegeben, `noindex`). Entwurf 3 wird nach `_projekt/GRUNDLAGE.md` geplant. Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
 
 ## Arbeitsweise
 - Sprache: Deutsch, Du-Form, sofern unten nicht anders festgelegt.
@@ -49,12 +49,17 @@ Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. 
 - Datenschutzerklärung nennt jedes eingebundene Tool.
 - [Bei Begleitungsangeboten: Hinweis „keine Heilkunde, ersetzt keine Therapie, Teilnahme in Eigenverantwortung“.]
 
-## Marke (verbindlich, nach Phase 3 füllen)
-- Dachmarke: Bettina Wyciok. Angebote: Einzelbegleitung, Paarbegleitung, Gruppen & Workshops (Entwurf). Schwerpunkt: Einzel- und Paarbegleitung mit IFS. Personenmarke, ruhig und persönlich, nicht verkäuferisch (kein "kostenloses Erstgespräch" als Aufhänger).
-- Schreibweisen: [...]
-- Ort immer gleich: [Ort, Adresse].
-- Alle Mail-Links an: kontakt@bettinawyciok.de (Adresse der alten Seite, Entwurf). Betreff je nach Button.
-- Wörter, die immer vorkommen: [...]
-- Wörter, die nie vorkommen: [...]
-- Die eine Handlung für Besucher: "Gespräch vereinbaren" (Online-Terminbuchung gewünscht, Tool noch offen; bis dahin Mail-Link).
-- Schriften: [Überschrift], [Fließtext]. Farben: [...]
+## Marke (Entwurf 9.10.2026, nicht freigegeben)
+- Dachmarke: Lebensfäden (Arbeitstitel, Name noch offen). Absenderin immer sichtbar: Bettina Wyciok.
+- Leitgedanke: Verbindung ist das Dach, Aufrichtung die Richtung.
+- Angebote: Einzelbegleitung · Paar- und Beziehungsbegleitung · Inner Trance Dance · Kurse und Workshops (MSC).
+- Orte: Freiburg · bei Furtwangen im Schwarzwald · online.
+- Mail: kontakt@bettinawyciok.de, Betreff je Knopf.
+- Anrede: Du (Bettina, 9.10.2026). Texte der alten Seite siezen und werden mechanisch umgestellt.
+- Qualifikation: Heilpraktiker-Erlaubnis, ob voll oder eingeschränkt (Psychotherapie) ist offen. Bis dahin keinen Rechtshinweis-Wortlaut erfinden, keine Wirkversprechen.
+- Die eine Handlung: „Gespräch vereinbaren“ (externer Kalender-Link, neuer Tab); bei Inner Trance Dance „Anmelden“.
+- Schreibweisen: Lebensfäden, Inner Trance Dance, Internal Family Systems (IFS), Mindful Self-Compassion (MSC).
+- Wörter immer: Verbindung, Aufrichtung, Mitgefühl, Klarheit, Lebendigkeit, Boden, Wurzeln, Würdigung.
+- Wörter nie: Selbstoptimierung, Potenzialentfaltung, Transformation, nachhaltige Veränderung, ganzheitlich, Heilungs- oder Erfolgsversprechen, kostenloses Erstgespräch.
+- Gefühl: „sowohl als auch“. Ruhig im Aufbau, lebendig in Bild, Schrift und Farbe. Keine Pastell-Therapie-Optik, kein spiritueller Coaching-Look, Natur nicht als Wellness-Kulisse.
+- Farben: Gelb/Gold (sparsam mit Schimmer) und Brombeer, Pink/Fuchsia offen. Wird mit Farbvergleich entschieden. Bisherige Töne (Blau, Rose) sind ihr zu dezent.

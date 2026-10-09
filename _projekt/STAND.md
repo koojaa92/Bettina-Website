@@ -14,6 +14,8 @@ Feedbackrunden: 0 von [vereinbart].
 
 - Design: `_projekt/DESIGN.md` beschreibt Entwurf 2 (Palette aus ihren Fotos, Literata und Nunito Sans selbst gehostet). Nicht freigegeben.
 
+- Grundlage 9.10.2026 liegt in `_projekt/GRUNDLAGE.md` (nicht freigegeben). Bettina-Entscheidungen: Du, Farbe Gelb/Gold + Brombeer (Details offen), "sowohl als auch". Namen "Lebensfäden" nicht bestätigt.
+
 ## Offene Punkte
 ### Vor Freigabe des Entwurfs klären (aus der alten Seite aufgefallen)
 - [ ] Bildplätze füllen (am Freitag): Einzelbegleitung, Paarbegleitung, Gruppe/Workshop, Praxis/Schwarzwald, persönliches Bild bei "Über mich". Keine KI-Bilder von Menschen

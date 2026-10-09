@@ -3,7 +3,7 @@
 Stand: 2026-10-09. Vorschau: https://koojaa92.github.io/Bettina-Website/ (Entwurf 3, `noindex`, nicht freigegeben).
 
 ## Was steht
-- Entwurf 3 nach `_projekt/GRUNDLAGE.md`: Wortmarke „Lebensfäden“ mit „Bettina Wyciok“ im Kopf, Navigation Einzel · Paare · Inner Trance Dance · Kurse · Blog · Über mich plus „Gespräch vereinbaren“, kleine Symbole für Telegram, Instagram und E-Mail oben rechts (Telegram und Instagram ohne Link, ausgegraut, bis die Adressen vorliegen).
+- Entwurf 3 nach `_projekt/GRUNDLAGE.md`: Wortmarke „Lebensfäden“ mit „Bettina Wyciok“ im Kopf, Navigation Einzel · Paare · Kurse und Workshops (Untermenü: Inner Trance Dance, Achtsames Selbstmitgefühl) · Blog · Über mich plus „Gespräch vereinbaren“; am Handy nur das Hamburger-Symbol, kleine Symbole für Telegram, Instagram und E-Mail oben rechts (Telegram und Instagram ohne Link, ausgegraut, bis die Adressen vorliegen).
 - Seiten: Start, `/einzelbegleitung/`, `/paarbegleitung/`, `/inner-trance-dance/`, `/workshops-seminare/` (Kurse und Workshops), `/blog/`, `/about/`, `/contact/`, Impressum und Datenschutz (Platzhalter).
 - Farben: Fuchsia und Goldgelb auf Weiß, Schriften Literata und Nunito Sans. Siehe `DESIGN.md`. Der Faden läuft als feine Goldlinie durch die Seite.
 - Alle Texte in Du. „Gespräch vereinbaren“ und „Anmelden“ sind Mail-Knöpfe. Fehlende Angaben sind sichtbare graue Platzhalter („fehlt“).

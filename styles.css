@@ -61,7 +61,21 @@ p { margin: 0 0 1rem; }
 .icon svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 a.icon:hover { color: #fff; background: var(--fuchsia); border-color: var(--fuchsia); }
 .icon.aus { opacity: .45; cursor: default; }
-.menue-knopf { display: none; font: 600 .98rem var(--font-text); color: var(--tinte); background: none; border: 1px solid var(--linie); border-radius: 999px; padding: .45rem 1rem; cursor: pointer; }
+.menue-knopf { display: none; width: 2.75rem; height: 2.75rem; place-items: center; color: var(--tinte); background: none; border: 1px solid var(--linie); border-radius: 50%; padding: 0; cursor: pointer; }
+.menue-knopf svg { width: 1.4rem; height: 1.4rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+
+/* Untermenü Kurse und Workshops */
+.mit-unter { position: relative; display: flex; align-items: center; }
+.mit-unter > .oben { color: var(--tinte); text-decoration: none; font-weight: 600; font-size: .98rem; padding: .3rem 0; border-bottom: 2px solid transparent; white-space: nowrap; }
+.mit-unter > .oben:hover, .mit-unter.aktiv > .oben { border-bottom-color: var(--gold); color: var(--tinte); }
+.unter-knopf { background: none; border: 0; padding: .3rem .25rem; color: var(--tinte); cursor: pointer; display: grid; place-items: center; }
+.unter-knopf svg { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s ease; }
+.unter-knopf[aria-expanded="true"] svg { transform: rotate(180deg); }
+.unter-menue { list-style: none; margin: 0; padding: .5rem; position: absolute; top: calc(100% + .35rem); left: -.75rem; min-width: 17rem; background: #fff; border: 1px solid var(--linie); border-radius: var(--rundung); box-shadow: 0 12px 30px rgba(35, 27, 33, .12); display: none; z-index: 40; }
+.unter-menue::before { content: ""; position: absolute; left: 0; right: 0; top: -.5rem; height: .5rem; }
+.mit-unter:hover .unter-menue, .mit-unter:focus-within .unter-menue, .mit-unter.offen .unter-menue { display: block; }
+.unter-menue a { display: block; padding: .6rem .85rem; border-radius: 8px; color: var(--tinte); text-decoration: none; font-weight: 600; font-size: .96rem; white-space: nowrap; }
+.unter-menue a:hover, .unter-menue a[aria-current="page"] { background: var(--grau); color: var(--tinte); }
 
 /* Knöpfe */
 .knoepfe { display: flex; flex-wrap: wrap; gap: .75rem 1rem; align-items: center; margin-top: 1.75rem; }
@@ -260,8 +274,14 @@ img.fuss-bg { object-fit: cover; width: 100%; height: 100%; padding: 0; }
 
 /* Menü ab 1100 px zugeklappt */
 @media (max-width: 1100px) {
-  .menue-knopf { display: inline-block; }
+  .menue-knopf { display: grid; }
   .kopf-rechts .icons { display: none; }
+  .mit-unter { display: block; }
+  .mit-unter > .oben { display: inline-block; padding: .65rem 0; }
+  .unter-knopf { display: none; }
+  .unter-menue { display: block; position: static; min-width: 0; margin: 0 0 .25rem; padding: 0 0 0 1rem; border: 0; box-shadow: none; background: none; border-left: 2px solid var(--gold); border-radius: 0; }
+  .unter-menue::before { display: none; }
+  .unter-menue a { padding: .5rem .5rem; font-weight: 400; }
   .js .hauptmenue { display: none; position: absolute; left: 0; right: 0; top: 100%; background: #fff; border-bottom: 1px solid var(--linie); padding: .75rem var(--rand) 1.25rem; flex-direction: column; align-items: stretch; gap: .15rem; }
   .js .hauptmenue.offen { display: flex; }
   .hauptmenue > a:not(.knopf) { padding: .65rem 0; }

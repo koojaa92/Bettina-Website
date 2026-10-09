@@ -19,6 +19,20 @@
     });
   }
 
+  // Untermenü (Desktop): per Klick auf den Pfeil öffnen, mit Esc oder Klick daneben schließen
+  var untermenue = document.querySelector('.mit-unter');
+  if (untermenue) {
+    var uk = untermenue.querySelector('.unter-knopf');
+    function zu() { untermenue.classList.remove('offen'); uk.setAttribute('aria-expanded', 'false'); }
+    uk.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var auf = untermenue.classList.toggle('offen');
+      uk.setAttribute('aria-expanded', auf ? 'true' : 'false');
+    });
+    document.addEventListener('click', function (e) { if (!untermenue.contains(e.target)) zu(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') zu(); });
+  }
+
   // Vergangene Termine ausblenden (die Karten tragen data-datum="JJJJ-MM-TT")
   var heute = new Date().toISOString().slice(0, 10);
   document.querySelectorAll('[data-datum]').forEach(function (k) {

@@ -1,13 +1,13 @@
 # CLAUDE.md – Regeln für diese Website
 
-Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md`. Bei einem neuen Projekt zusätzlich `_werkstatt/HANDBUCH.md`.
+Gilt für jede Sitzung in diesem Repo. Lies zu Beginn auch `_projekt/STAND.md` und, wenn die Seite übergeben wird, `_projekt/UEBERGABE.md`. Bei einem neuen Projekt zusätzlich `_werkstatt/HANDBUCH.md`.
 
 ## Projekt
 - Website für: Bettina Wyciok, Einzel- und Paarbegleitung sowie Workshops und Seminare in Freiburg, bei Furtwangen im Schwarzwald und online
 - Repo: koojaa92/Bettina-Website. Live ist der Branch `main` (GitHub Pages).
 - Domain: voraussichtlich die der bestehenden Seite, Anbieter und DNS noch zu klären. E-Mail an der Domain: [ja/nein]. MX- und TXT-Einträge nie ändern.
 - Website-Typ und Ziel: [z. B. Angebots-Website mit Terminen / One-Pager / Portfolio]. Funktionen: [...]
-- Aktuelle Phase: Entwurf 3 steht nach `_projekt/GRUNDLAGE.md` (nicht freigegeben, `noindex`). Bewusste Entscheidung von Jakob, vor dem Interview zu bauen. Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen.
+- Aktuelle Phase: Entwurf 3 steht nach `_projekt/GRUNDLAGE.md` (nicht freigegeben, `noindex`). Das Interview und die freigegebene Grundlage stehen noch aus. Bewusste Entscheidung von Jakob, den Entwurf vor Phase 3 zu bauen. Übergabe an Bettina siehe `_projekt/UEBERGABE.md`.
 
 ## Arbeitsweise
 - Sprache: Deutsch, Du-Form, sofern unten nicht anders festgelegt.

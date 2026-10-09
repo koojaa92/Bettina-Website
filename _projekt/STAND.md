@@ -10,6 +10,8 @@ Stand: 2026-10-09. Vorschau: https://koojaa92.github.io/Bettina-Website/ (Entwur
 - Werkzeuge: `tools/make-termine.py` mit `tools/termine.json` (Terminkarten und `termine.ics`), `tools/make-blog.py` mit `blog/beitraege/*.md` (Vorlage `_vorlage.md`). Beide laufen mit `python3 tools/<name>.py`.
 - Technik: statisches HTML, eine `styles.css`, eine `main.js`. `noindex` und `Disallow: /` gesetzt. Bei 390 und 1280 px geprüft, nicht auf einem echten iPhone.
 
+- Übergabe an Bettina vorbereitet: `_projekt/UEBERGABE.md` (Schritt-für-Schritt für sie, Übertragungsschritte für Jakob).
+
 ## Bildplätze (Dateiname in `bilder/`, fehlt die Datei, steht ein grauer Platz)
 `hero` (Start), `person` (Wer ich bin), `ueber-kopf` (Über mich), `raum` (Praxisraum, Paar-Karte und Einzelseite), `einzel` (Karte Einzel), `ifs` (bunte Figuren, Seite Einzel), `itd` (Inner Trance Dance), `msc` (MSC), `faden` (Natur, Startseite), `arbeit` (Fuchsia-Gemälde als Hintergrund bei „Wie ich arbeite“), `fuss` (Footer-Hintergrund), `einzel-kopf`, `paar-kopf`, `itd-kopf`, `kurse-kopf`, `blog-kopf`, `kontakt-kopf` (Bilder in den Seitenköpfen), `ort` (Haus im Schwarzwald, Über mich), `paar-raum`.
 Vorhanden: `hero`, `person`, `ueber-kopf`, `einzel`, `einzel-kopf`, `raum`, `arbeit`, `itd-kopf`, `ort`, `kontakt-kopf`, `faden`. Es fehlen noch: `fuss` (Footer), `itd` (Kerze), `msc` (Lavendel), `ifs` (bunte Figuren), Wurzeln, Keimling, Terrasse, Gemälde in Rosa. Dateiformat WebP, Breite 1200 bis 1600 px.

@@ -109,12 +109,12 @@ h2 + .text, h2 + p { margin-top: 1.25rem; }
 .hero-inhalt > * { max-width: 37rem; }
 .ueberzeile { color: var(--fuchsia); font-weight: 600; font-size: .98rem; margin: 0 0 1.25rem; display: flex; align-items: center; gap: .75rem; }
 .ueberzeile::before { content: ""; flex: none; width: 2rem; height: 2px; background: var(--gold); }
-.hero h1 { font-size: clamp(2.3rem, 4.8vw, 3.9rem); line-height: 1.1; margin-bottom: 1.5rem; }
+.hero h1 { font-size: clamp(2.3rem, 4.8vw, 3.9rem); line-height: 1.1; margin-bottom: 1.5rem; hyphens: none; }
 .hero h1 .zweite { display: block; font-size: .56em; line-height: 1.3; margin-top: .6rem; color: var(--leise); }
 .hero-inhalt p.lead { font-size: 1.2rem; margin: 0; max-width: 31rem; }
 .hero-inhalt p.lead strong { font-weight: 700; }
-.methoden { background: var(--tinte); color: #fff; padding: 1.1rem var(--rand); }
-.methoden ul { list-style: none; max-width: var(--breit); margin: 0 auto; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: .3rem 2rem; font-size: .98rem; }
+.methoden { background: #fff; color: var(--tinte); border-top: 1px solid var(--linie); border-bottom: 1px solid var(--linie); padding: 1.15rem var(--rand); }
+.methoden ul { list-style: none; max-width: none; margin: 0 auto; padding: 0 1rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .98rem; font-weight: 600; }
 .methoden li { margin: 0; display: flex; align-items: center; gap: .6rem; }
 .methoden li::before { content: ""; width: .4rem; height: .4rem; border-radius: 50%; background: var(--gold); }
 @media (prefers-reduced-motion: no-preference) {
@@ -293,7 +293,7 @@ img.fuss-bg { object-fit: cover; width: 100%; height: 100%; padding: 0; }
   .hero h1 { font-size: 2.1rem; margin-bottom: 1rem; }
   .hero-inhalt p.lead { font-size: 1.05rem; }
   .hero-inhalt .knoepfe { margin-top: 1.25rem; }
-  .methoden ul { justify-content: flex-start; gap: .2rem 1.25rem; }
+  .methoden ul { justify-content: flex-start; padding: 0; gap: .2rem 1.25rem; }
   .drei { grid-template-columns: 1fr; gap: 1.75rem; }
   .zweispaltig { grid-template-columns: 1fr; gap: 2rem; }
   .zweispaltig.umgekehrt > :first-child { order: 0; }
